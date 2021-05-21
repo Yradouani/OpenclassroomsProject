@@ -1,3 +1,396 @@
-h1 {
-    color: red;
+@font-face
+{
+    font-family: 'Raleway';
+    src : url('static/Raleway-Black.ttf');
+          
+}
+
+p h1 h2 h3
+{
+    font-family: 'Raleway', sans-serif;
+}
+h1
+{
+    font-size: 20px;
+}
+h2
+{
+    margin-left: 10px;
+}
+
+.header
+{
+    display: flex;
+}
+.logo
+{
+  margin-right: 700px;
+}
+
+nav
+{
+    display : flex;
+    margin-left: 200px;
+    
+}
+
+.hébergements
+{
+    color : #0065FC;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.activités
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.inscription
+{
+    font-weight: bold;
+    color : #0065FC;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+h1, h2
+{
+    font-weight: bold;
+}
+#recherche
+{
+    display: flex;
+    border-radius: 40px;
+    border: 1px white solid;
+}
+#rechercher
+{
+    background-color: #F2F2F2;
+    width: 30px;
+    height: 30px;
+    border-radius: 80px;
+    text-align: center;
+    
+}
+#search
+{
+    border: 0px white solid;
+    height: 30px;
+}
+#bouton
+    {
+        
+        background-color: #0065FC;
+       
+    }
+#filtres
+{
+    display : flex;
+}
+.filtre0
+{
+    font-weight: bold;
+    margin-top: 25px;
+}
+.filtre1
+{
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px #F2F2F2 solid;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+#éco
+{
+    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+.filtre2
+{
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px #F2F2F2 solid;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+#familial
+{
+    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+.filtre3
+{
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px #F2F2F2 solid;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+#romantique
+{
+    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+.filtre4
+{
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px #F2F2F2 solid;
+    width: 190px;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+#animaux
+{
+    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 11px;
+}
+.icônes
+{
+    color:blue;
+    background-color: #DEEBFF;
+    width: 31px;
+    height: 25px;
+    border-radius: 80px;
+    text-align: center;
+    margin: center;
+    padding-top: 4px;
+    
+
+}
+.filtres:hover
+{
+    color: #a3b6d3;
+    font-style: italic;
+}
+#info
+{
+    display: flex;
+}
+#i
+{
+    color:blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 80px;
+    border: 1px #F2F2F2 solid;
+    text-align: center;
+    
+}
+#p3
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.étoile
+{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.étoile1
+{
+    display: flex;
+    margin-left: 10px;
+}
+.blue
+{
+    color:blue;
+    
+}
+.gris
+{
+    color :#DEEBFF;
+}
+.noms
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.prix
+{
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.bloc
+{
+    width: 8000px;
+    height: 600px;
+    display: flex;
+    
+}
+
+
+.p1
+{
+    font-weight: bold;
+}
+p2
+{
+    font-weight: bold;
+}
+#Hébergements
+{
+    margin-left: 20px;
+    height: 1px;
+
+}
+#logements 
+{
+    background-color: #F2F2F2;
+    border-radius: 17px;
+    margin: 10px;
+    height: 500px;
+    
+    
+    
+}
+#populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 17px;
+    height: 500px;
+    width: 350px;
+    
+    margin-left: 800px;
+    margin-top: 10px;
+    margin-bottom: 300px;
+}
+#pop
+{
+    margin: 10px;
+}
+#partie1
+{
+    display: flex;
+    height: 200px;
+    
+}
+#partie2
+{
+    display: flex;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.hotels
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 25px;
+    box-shadow: 6px 6px 10px rgb(209, 209, 209);  
+    width: 200px;
+    height: 160px;
+    overflow: hidden;
+    margin: 15px;
+    
+
+    
+}
+
+}
+#populaires
+{
+    background-color: #f5abab;
+}
+#Populaires
+{
+    margin: 30px
+    
+}
+.hotels2
+{
+    width: 290px;
+    height: 110px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 3px white solid;
+    margin: 30px;
+    display: flex;
+}
+.picture
+{
+    border: 1px #F2F2F2 solid;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 385px;
+    margin-left: 30px;
+}
+.loisir
+{
+    border: 1px #F2F2F2 solid;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 180px;
+    margin-bottom: 25px;
+    
+}
+.loisir1
+{
+    display: flex;
+}
+.part1
+{
+    
+    margin-left: 30px;
+}
+
+.noms2
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.noms3
+{
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    margin-bottom: 50px;
+}
+h3
+{
+    font-weight: bold;
+
+}
+#àpropos
+{
+    margin-left: 30px;
+}
+
+#héberg
+{
+    margin-left: 200px;
+}
+
+#assistance
+{
+    margin-left: 400px;
 }
