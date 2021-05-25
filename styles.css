@@ -1,27 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,200;1,300;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,200;1,300;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,300;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,300;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,400;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,400;1,500;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,400;1,500;1,600;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,400;1,500;1,600;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,400;1,500;1,600;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400;1,500;1,600;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-@font-face
-{
-    font-family: 'Raleway', sans-serif;
-}
-p h1 h2 h3
+body
 {
     font-family: 'Raleway', sans-serif;
 }
@@ -43,7 +20,7 @@ body
 }
 #main_wrapper
 {
-    width: 98%;
+    width: 96%;
     margin: auto;
     height: 100%;
     position: relative;
@@ -70,7 +47,7 @@ nav
     display: flex;
 }
 /* navigation */
-.hébergements
+.housing
 {
     color : #0065FC;
     margin-top: -7px;
@@ -86,7 +63,7 @@ nav
     color: #0065FC;
 }
 /* navigation */
-.activités
+.activities
 {
     margin-top: 20px;
     margin-right: 43px;
@@ -149,7 +126,7 @@ input:focus
     outline:none;
 }
 /* Bouton de recherche*/
-#bouton1
+#button
 {  
     background-color: #0065FC;
     height: 30px;
@@ -190,26 +167,14 @@ input:focus
 {
     color:turquoise;
 }
-#éco
+#titlefilter1
 {
     display: flex;
     align-items: center;
     margin-left: 8px;
 }
-#iconeéconomique
-{
-    color:blue;
-    background-color: #DEEBFF;
-    width: 35px;
-    height: 35px;
-    border-radius: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .icônes2
 {
-    color:blue;
     background-color: #DEEBFF;
     width: 36px;
     height: 35px;
@@ -236,7 +201,7 @@ input:focus
 {
     color:turquoise;
 }
-#familial
+#titlefilter2
 {
     margin-bottom: 4px;
     margin-top: 7px;
@@ -260,7 +225,7 @@ input:focus
 {
     color:turquoise;
 }
-#romantique
+#titlefilter3
 {
     margin-bottom: 4px;
     margin-top: 7px;
@@ -271,7 +236,7 @@ input:focus
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 190px;
+    width: 200px;
     height: 35px;
     display: flex;
     margin-left: 10px;
@@ -284,7 +249,7 @@ input:focus
 {
     color:turquoise;
 }
-#animaux
+#titlefilter4
 {
     margin-bottom: 4px;
     margin-top: 6px;
@@ -293,12 +258,11 @@ input:focus
 }
 .icônes
 {
-    color:blue;
+    color:#0065FC;
     background-color: #DEEBFF;
     width: 36px;
     height: 35px;
     border-radius: 80px;
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,7 +284,7 @@ input:focus
 /* icône information */
 #i
 {
-    color:blue;
+    color:#0065FC;
     width: 30px;
     height: 30px;
     border-radius: 70px;
@@ -360,7 +324,7 @@ input:focus
     margin: 0 5px;
 }
 /* h2 Hébergement à Marseille */
-#Hébergements
+#housing_title
 {
     margin-left: 20px;
     height: 1px;
@@ -368,7 +332,7 @@ input:focus
     padding-top: 5px;
 }
 /* Première partie des hébergements à Marseille */
-#partie1
+#housingpart1
 {
     display: flex;
     height: 200px; 
@@ -407,21 +371,21 @@ img.photoshébergement
     margin-bottom: 4px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
-.étoile1
+.stars1
 {
     display: flex;
     margin-left: 10px;
 }
 .blue
 {
-    color:blue;  
+    color:#0065FC;  
 }
 .gris
 {
     color :#DEEBFF;
 }
 /* Deuxième partie des hébergements à Marseille */
-#partie2
+#housingpart2
 {
     display: flex;
     height: 150px;
@@ -488,7 +452,7 @@ img.photoshébergement
 }
 .hotels2
 {
-    width: 360px;
+    width: 85%;
     height: 23%;
     background-color: white;
     border-radius: 15px;
@@ -502,7 +466,7 @@ img.photoshébergement
 }
 .hotels3
 {
-    width: 360px;
+    width: 85%;
     height: 23%;
     background-color: white;
     border-radius: 15px;
@@ -607,18 +571,15 @@ img.photosactivitéspetites
 
 footer
 {
-    
+    background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    bottom: 60px;
     top: 1400px;
-    height: 210px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    height: 160px;
 }
 #findepage
 {
-    background-color: #F2F2F2;
+    
     display: flex;
     width: 100%;
     margin-top: 10px;
