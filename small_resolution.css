@@ -377,14 +377,15 @@ input:focus
 .hotels
 {
     background-color: white;
-    width: 255px;
+    width: 263px;
     height: 190px;
-    margin-left: 25px;
+    margin-left: 19px;
     border: 4px white solid;
+    box-shadow: 2px 2px 8px rgb(240, 240, 240);
 }
 img.photoshébergement
 {
-    width:255px ;
+    width:263px ;
     height:100px;
 }
 /* Noms des hôtels */
@@ -417,6 +418,7 @@ img.photoshébergement
     flex-direction: column;
     height: 600px; 
     margin-top: 15px;
+    margin-bottom: 7px;
 }
 /* texte afficher plus */
 .p4
@@ -529,7 +531,7 @@ img.photospopulaires
 #loisir
 {
     position: absolute;
-    top: 2700px;
+    top: 2340px;
     width: 98%;
     margin-right: 5px;
     padding-top: 30px;
