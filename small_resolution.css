@@ -535,6 +535,7 @@ img.photospopulaires
     width: 100%;
     margin-right: 5px;
     padding-top: 30px;
+    height: 2000px;
     
 }
 /* h2 Activités à Marseille */
@@ -584,16 +585,18 @@ img.photosactivitéspetites
 {
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 3px;
+    margin-top: 6px;
     margin-bottom: 10px;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .part1
 {
     margin-left: 15px;
+    margin-top: 23px;
+   
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
-.loisir
+.hobbies
 {
     border: 1px #F2F2F2 solid;
     border-radius: 15px;
@@ -602,8 +605,8 @@ img.photosactivitéspetites
     width: 280px;
     height: 160px;
     margin-bottom: 25px;  
+    
 }
-
 
 footer
 {
