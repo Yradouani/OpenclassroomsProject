@@ -535,7 +535,7 @@ img.photospopulaires
     width: 100%;
     margin-right: 5px;
     padding-top: 30px;
-    height: 2000px;
+    height: 1600px;
     
 }
 /* h2 Activités à Marseille */
@@ -613,35 +613,39 @@ footer
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 4000px;
-    height: 160px;
+    top: 3560px;
+    height: 450px;
 }
 #findepage
 {
-    
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin-top: 10px;
-    height: 85%;
+    height: 100%;
     position: relative;
 }
 h3
 {
-    font-weight: bold;
+    font-size: 15px;
+
 }
 #àpropos
 {
-    height: 70%;
-    position: absolute;
-    left: 3%;
+    width: 100%;
+    top: 20px;
+    left: 30px;
+
 }
 #héberg
 {
-    position: absolute;
-    left: 34%;
+    width: 100%;
+    left: 30px;
+    top: 180px;
 }
 #assistance
 {
-    position: absolute;
-    left: 65%;
+    width: 100%;
+    left: 30px;
+    top: 305px;
 }
