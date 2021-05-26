@@ -1,58 +1,89 @@
-h1
-{
-    font-size: 25px;
-    font-weight: bold;
-}
-h2
-{
-    margin-left: 10px;
-    font-weight: bold;
-}
 body
 {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     position: relative;
-    margin:0px;
+}
+p
+{
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 115px;
+    left: 10px;
+    font-family: 'Raleway';
+}
+#introduction
+{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+}
+h2
+{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 20px;
 }
 #main_wrapper
 {
-    width: 96%;
+    width: 100%;
     margin: auto;
-    height: 100%;
     position: relative;
+}
+header
+{
+    width: 100%;
 }
 .header
 {
     display: flex;
-    justify-content: space-between;
-    margin: auto;
     padding-top: 20px;
+    width: 100%;
+    margin-bottom: 1%;
 }
 img#logo1
 {
-    width:110px;
+    width:90px;
+    padding-bottom: 50%;
+    padding-left: 15px;
 }
 /* Menu de navigation */
 nav
 {
     display : flex;
     margin-left: 200px;  
+    flex-direction: column;
+    flex-direction: row-reverse;
+    width: 100%;
 }
 #navigation
 {
     display: flex;
+    width: 100%;
+    margin-top: 40px;
+    position: absolute;
+    left: 15px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 /* navigation */
 .housing
 {
     color : #0065FC;
     margin-top: -7px;
-    margin-right: 40px;
-    border-top: 1.5px solid #0065FC;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+    padding-bottom: 10px;
+    padding-left: 31px;
+    padding-right: 31px;
+   
 }
 #ancre
 {
@@ -63,8 +94,14 @@ nav
 .activities
 {
     margin-top: 20px;
-    margin-right: 43px;
+
     padding-top: 5px;
+    border-bottom: 3px solid #F2F2F2;
+    padding-right: 51px;
+    padding-left: 51px;
+    position: absolute;
+    left: 51%;
+    padding-bottom: 8px;
 }
 #ancre2
 {
@@ -76,9 +113,14 @@ nav
 {
     font-weight: bold;
     color : #0065FC;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding-top: 5px;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+   
+}
+#introduction
+{
+    margin-top: 0px;
 }
 
 /*div de la section de recherche*/
@@ -87,17 +129,18 @@ nav
     display: flex;
     border-radius: 28px;
     border: 1px #F2F2F2 solid;
-    height: 30px;
-    width: 330px;
+    height: 40px;
+    width: 90%;
+    margin-left: 13px;
 }
 /*icône de recherche*/
 #rechercher
 {
     background-color: #F2F2F2;
-    width: 40px;
-    height: 30px;
-    border-bottom-left-radius: 28px;
-    border-top-left-radius: 28px;
+    width: 45px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -106,9 +149,9 @@ nav
 #rechercher1
 {
     height: 20px;
-    border: none;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 13px;
+    width: 200px;
 }
 input::placeholder
 {
@@ -116,6 +159,8 @@ input::placeholder
     color: black;
     opacity: 1;
     font-family: 'Raleway';
+    font-size: 15px;
+    
 }
 /*enlève la bordure lors du clic sur le bouton de recherche*/
 input:focus
@@ -126,25 +171,29 @@ input:focus
 #button
 {  
     background-color: #0065FC;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     border : none;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     color: white;
 }
+
 
 
 /* Div contenant les filtres */
 #filtres
 {
     display : flex;
+    flex-direction: column;
     padding-top: 5px;
 }
 .textfilters
 {
     font-weight: bold;
     margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 0px;
 }
 .filtre1
 {
@@ -154,21 +203,18 @@ input:focus
     width: 145px;
     height: 35px;
     display: flex;
-    margin-left: 20px;
-    margin-top: 16px;
-    margin-bottom: 12px;
-    margin-right: 10px;
- 
+    
 }
 .filtre1:hover
 {
-    color:turquoise;
+    color:#0065FC;
 }
 #titlefilter1
 {
     display: flex;
     align-items: center;
     margin-left: 8px;
+    font-weight: bold;
 }
 .icônes2
 {
@@ -188,24 +234,22 @@ input:focus
     width: 125px;
     height: 35px;
     display: flex;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 10px;
 }
 .filtre2:hover
 {
-    color:turquoise;
+    color:#0065FC;
 }
 #titlefilter2
 {
     margin-bottom: 4px;
     margin-top: 7px;
     margin-left: 14px;
+    font-weight: bold;
 }
 #filters1and2
 {
     display: flex;
+    margin-left: -9px;
 }
 .filtre3
 {
@@ -215,20 +259,18 @@ input:focus
     width: 140px;
     height: 35px;
     display: flex;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-top: 1px;
 }
 .filtre3:hover
 {
-    color:turquoise;
+    color:#0065FC;
 }
 #titlefilter3
 {
     margin-bottom: 4px;
     margin-top: 7px;
     margin-left: 7px;
+    font-weight: bold;
 }
 .filtre4
 {
@@ -238,14 +280,11 @@ input:focus
     width: 200px;
     height: 35px;
     display: flex;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-top: 5px;
 }
 .filtre4:hover
 {
-    color:turquoise;
+    color:#0065FC;
 }
 #titlefilter4
 {
@@ -253,6 +292,7 @@ input:focus
     margin-top: 6px;
     margin-right: 2px;
     margin-left: 11px;
+    font-weight: bold;
 }
 .icônes
 {
@@ -278,19 +318,17 @@ input:focus
     display: flex;
     padding-bottom: 15px;
     padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 /* icône information */
 #i
 {
-    color:#0065FC;
-    width: 30px;
-    height: 30px;
-    border-radius: 70px;
-    border: 1px #F2F2F2 solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    
+    width: 25px;
+    height: 20px;
+    border: 1.8px #F2F2F2 solid;  
+    font-size: 10px; 
+    margin-top: 3px;
 }
 /* paragraphe info */
 #p3
@@ -298,61 +336,56 @@ input:focus
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 6px;
+    font-size: 14px;
+    
 }
-
 
 /* Hébergements à Marseille + Les plus populaires */
 .firstsection
 {
     display: flex;
-    justify-content: space-around;
-    width: 98%;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    margin: 0 -5px;
-    height: 580px;
+    flex-direction:column-reverse;
+    width: 100%;
+    height: 2000px;
 }
 /* div contenant les hébergements à Marseille + texte */
 #logements 
 {
-    background-color: #F2F2F2;
-    border-radius: 15px;
+    background-color: white;
     height: 100%;
-    width: 64%;
-    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 /* h2 Hébergement à Marseille */
 #housing_title
 {
     margin-left: 20px;
     height: 1px;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 5px;
 }
 /* Première partie des hébergements à Marseille */
 #housingpart1
 {
     display: flex;
-    height: 200px; 
-    margin-top: 45px;
+    flex-direction: column;
+    height: 600px; 
+    margin-top: 15px;
 }
 /* Cartes d'hébergements à Marseille */
 .hotels
 {
     background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
+    width: 255px;
     height: 190px;
-    overflow: hidden;
-    margin: 15px; 
+    margin-left: 25px;
+    border: 4px white solid;
 }
 img.photoshébergement
 {
-    width:250px ;
-    height:110px;
+    width:255px ;
+    height:100px;
 }
 /* Noms des hôtels */
 .noms
@@ -361,35 +394,29 @@ img.photoshébergement
     margin-left: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 18px;
+    font-size: 14px;
 }
 .prix
 {
     margin-left: 10px;
-    margin-top: 2px;
+    margin-top: 4px;
     margin-bottom: 4px;
+    font-size: 12px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
 .stars1
 {
     display: flex;
     margin-left: 10px;
-}
-.blue
-{
-    color:#0065FC;  
-}
-.gris
-{
-    color :#DEEBFF;
+    font-size: 10px;
 }
 /* Deuxième partie des hébergements à Marseille */
 #housingpart2
 {
     display: flex;
-    height: 150px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    flex-direction: column;
+    height: 600px; 
+    margin-top: 15px;
 }
 /* texte afficher plus */
 .p4
@@ -397,109 +424,112 @@ img.photoshébergement
     font-weight: bold;
     margin-left: 30px;
     margin-bottom: 20px;
-    margin-top: 90px;
+    margin-top: 0px;
+    font-size: 15px;
 }
 
 
 /* div contenant les hébergements les plus populaires + texte */
 #populaires
 {
+    border-radius: 0px;
     background-color: #F2F2F2;
-    border-radius: 15px;
-    height: 100%;
-    width: 36%; 
+    width: 100%;  
+    height:650px;
     position: relative;
-    left: 30px;   
+    left: 0px;
 }
+    
 /*contener du h2 + icône populaires*/
 #texte
 {
+    
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
-    height: 20%;
-    padding-top: 10px;
+    height: 10%;
 }
 /* h2 "les plus populaires" */
 #pop
 {
     margin: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #icônepopulaires
 {
-    
     margin-top: 15px;
     position: absolute;
     right: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
 {
-    width: 85%;
-    height: 23%;
+    width: 82%;
+    height: 118px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    border: 3px white solid;
+    border: 4px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
-    top: 15%;
+    right: 25px;  
+    top: 13%;
 }
 .hotels2
 {
-    width: 85%;
-    height: 23%;
+    width: 82%;
+    height: 118px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    border: 3px white solid;
+    border: 4px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
-    bottom: 33%;
+    right: 25px;  
+    bottom: 165px;
 }
 .hotels3
 {
-    width: 85%;
-    height: 23%;
+    width: 82%;
+    height: 118px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    border: 3px white solid;
+    border: 4px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
-    bottom: 5%;
+    right: 25px;  
+    bottom: 30px;
 }
 img.photospopulaires
 {
-    width:140px;
+    width:110px;
     height:140px;
 }
 .textehotel
 {
-    padding-left: 7px;
     padding-top: 7px;
+    position: absolute;
+    left: 45%;
 }
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
     display: flex;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-left: 7px;
+    font-size: 10px;
 }
 
 /* div Activités */
 #loisir
 {
     position: absolute;
-    top: 900px;
+    top: 2700px;
     width: 98%;
     margin-right: 5px;
     padding-top: 30px;
@@ -573,7 +603,7 @@ footer
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 1400px;
+    top: 3000px;
     height: 160px;
 }
 #findepage
