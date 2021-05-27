@@ -338,7 +338,62 @@ input:focus
     margin-top: 45px;
 }
 /* Cartes d'hébergements à Marseille */
-.hotels
+.Hosting_map1
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 15px; 
+}
+.Hosting_map2
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 15px; 
+}
+.Hosting_map3
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 15px; 
+}
+.Hosting_map4
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 15px; 
+}
+.Hosting_map5
+{
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 15px; 
+}
+.Hosting_map6
 {
     background-color: white;
     border: 3px white solid;
@@ -557,7 +612,7 @@ img.photosactivitéspetites
     margin-left: 30px;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
-.loisir
+.hobbies
 {
     border: 1px #F2F2F2 solid;
     border-radius: 15px;
@@ -566,7 +621,6 @@ img.photosactivitéspetites
     height: 180px;
     margin-bottom: 25px;  
 }
-
 
 footer
 {
