@@ -177,10 +177,24 @@ input:focus
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
+    
 }
 
+.value
+{
+    display: none;
+}
+#search_icone
+{
+    text-indent: 0px;
+    bottom: 27px;
+    left: 14px;
+    color: white;
+    font-size: 15px;
+    
+    
 
-
+}
 /* Div contenant les filtres */
 #filtres
 {
@@ -596,7 +610,7 @@ img.photospopulaires
 #loisir
 {
     position: absolute;
-    top: 2260px;
+    top: 2230px;
     width: 100%;
     margin-right: 5px;
     height: 1600px;

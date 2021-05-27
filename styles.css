@@ -133,6 +133,13 @@ input:focus
     border-top-right-radius: 10px;
     color: white;
 }
+#search_icone
+{
+    text-indent: -9999px;
+    position: relative;
+    right: 20px;
+
+}
 
 
 /* Div contenant les filtres */
