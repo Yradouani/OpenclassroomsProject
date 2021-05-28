@@ -335,11 +335,11 @@ input:focus
 .firstsection
 {
     display: flex;
+    flex-direction: column;
     width: 98%;
-
     position: relative;
     margin: 0 -5px;
-    height: 500px;
+    height: 1600px;
 }
 /* div contenant les hébergements à Marseille + texte */
 #logements 
@@ -347,7 +347,7 @@ input:focus
     background-color: #F2F2F2;
     border-radius: 15px;
     height: 95%;
-    width: 68%;
+    width: 72%;
     margin: 0 5px;
 }
 /* h2 Hébergement à Marseille */
@@ -600,7 +600,6 @@ img.photospopulaires
 {
     display: flex;
     margin-right: 10px;
-    width: 98%;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
@@ -609,17 +608,17 @@ img.photospopulaires
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 330px;
+    height: 300px;
     margin-left: 30px;
 }
 img.photosactivitésgrandes
 {
     width: 290px; 
-    height: 280px;
+    height: 260px;
 }
 img.photosactivitéspetites
 {
-    width: 300px; 
+    width: 290px; 
     height: 100px;
 }
 /* noms des activités des grandes photos */
@@ -642,7 +641,7 @@ img.photosactivitéspetites
 .part1
 {
     margin-left: 30px;
-    width: 23%;
+    width: 200px;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
 .hobbies
@@ -651,7 +650,7 @@ img.photosactivitéspetites
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 145px;
+    height: 138px;
     margin-bottom: 25px;  
 }
 
@@ -660,8 +659,8 @@ footer
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 1250px;
-    height: 140px;
+    top: 1200px;
+    height: 130px;
 }
 #findepage
 {
