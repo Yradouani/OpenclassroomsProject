@@ -1,11 +1,11 @@
 p
 {
-    font-size: 12px;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 h1
 {
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 h2
@@ -39,7 +39,7 @@ body
 }
 img#logo1
 {
-    width:90px;
+    width:7vw;
     height: 50px;
 }
 /* Menu de navigation */
