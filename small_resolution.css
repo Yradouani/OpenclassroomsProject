@@ -1,28 +1,16 @@
 p
 {
     font-size: 4.5vw;
-    font-family: 'Raleway';
 }
 h1
 {
     font-size: 20px;
-    font-weight: bold;
     position: absolute;
     top: 115px;
-    left: 10px;
-    font-family: 'Raleway';
-}
-#introduction
-{
-    position: absolute;
-    top: 190px;
     left: 10px;
 }
 h2
 {
-    margin-left: 10px;
-    font-weight: bold;
-    font-family: 'Raleway';
     font-size: 20px;
 }
 #main_wrapper
@@ -30,10 +18,7 @@ h2
     width: 100%;
     min-width: 200px;
     max-width: 600px;
-    margin: auto;
-    position: relative;
     font-size: 15px;
-    
 }
 header
 {
@@ -41,8 +26,6 @@ header
 }
 .header
 {
-    display: flex;
-    padding-top: 20px;
     width: 100%;
     margin-bottom: 1%;
 }
@@ -54,16 +37,13 @@ img#logo1
 }
 /* Menu de navigation */
 nav
-{
-    display : flex;
-    margin-left: 200px;  
+{ 
     flex-direction: column;
     flex-direction: row-reverse;
     width: 100%;
 }
 #navigation
 {
-    display: flex;
     width: 100%;
     margin-top: 40px;
     position: absolute;
@@ -71,11 +51,15 @@ nav
     margin-left: -20px;
     margin-right: -20px;
 }
+#introduction
+{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+}
 /* navigation */
 .housing
 {
-    color : #0065FC;
-    margin-top: -7px;
     border-bottom: 2px solid #0065FC;
     border-top: none;
     padding-bottom: 10px;
@@ -84,17 +68,9 @@ nav
     width: 50%;
    
 }
-#ancre
-{
-    text-decoration: none;
-    color: #0065FC;
-}
 /* navigation */
 .activities
 {
-    margin-top: 20px;
-
-    padding-top: 5px;
     border-bottom: 3px solid #F2F2F2;
     padding-right: 51px;
     padding-left: 51px;
@@ -103,20 +79,12 @@ nav
     padding-bottom: 8px;
     width: 50%;
 }
-#ancre2
-{
-    text-decoration: none;
-    color: black;
-}
 /* navigation */
 .inscription
 {
-    font-weight: bold;
-    color : #0065FC;
     position: absolute;
     top: 10px;
-    right: 1%;
-   
+    right: 1%; 
 }
 #introduction
 {
@@ -126,9 +94,6 @@ nav
 /*div de la section de recherche*/
 #contener_search
 {
-    display: flex;
-    border-radius: 28px;
-    border: 1px #F2F2F2 solid;
     height: 40px;
     width: 88vw;
     margin-left: 13px;
@@ -136,36 +101,18 @@ nav
 /*icône de recherche*/
 #rechercher
 {
-    background-color: #F2F2F2;
     width: 45px;
-    height: 40px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+    height: 40px; 
 }
 /*Champs de recherche*/
 #rechercher1
 {
-    height: 20px;
-    margin-left: 10px;
     margin-top: 13px;
     width: 200px;
 }
 input::placeholder
 {
-    font-weight: bold;
-    color: black;
-    opacity: 1;
-    font-family: 'Raleway';
     font-size: 15px;
-    
-}
-/*enlève la bordure lors du clic sur le bouton de recherche*/
-input:focus
-{
-    outline:none;
 }
 /* Bouton de recherche*/
 #button
@@ -188,74 +135,35 @@ input:focus
     position: absolute;
     right: 20px;
 }
-input[submit]
-{
-    display: none;
-}
 #search_icone
 {
     text-indent: 0px;
     color: rgb(5, 0, 0);
     font-size: 15px;
-    
-    
-    
-
 }
 /* Div contenant les filtres */
 #filtres
 {
-    display : flex;
     flex-direction: column;
-    padding-top: 5px;
 }
 .textfilters
 {
-    font-weight: bold;
-    margin-top: 25px;
     margin-left: 15px;
     margin-bottom: 0px;
 }
 .filtre1
 {
-    font-weight: bold;
-    border-radius: 30px;
-    border: 2px #F2F2F2 solid;
-    width: 145px;
-    height: 35px;
-    display: flex;
-    
-}
-.filtre1:hover
-{
-    color:#0065FC;
+    width: 43vw;
+    height: 10vw;
 }
 #titlefilter1
 {
-    display: flex;
-    align-items: center;
-    margin-left: 8px;
-    font-weight: bold;
     font-size: 4.5vw;
-}
-.icônes2
-{
-    background-color: #DEEBFF;
-    width: 36px;
-    height: 35px;
-    border-radius: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .filtre2
 {
-    font-weight: bold;
-    border-radius: 20px;
-    border: 2px #F2F2F2 solid;
-    width: 125px;
-    height: 35px;
-    display: flex;
+    width: 35vw;
+    height: 10vw;
     margin-top: 17px;
 }
 .filtre2:hover
@@ -280,8 +188,8 @@ input[submit]
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 140px;
-    height: 35px;
+    width: 43vw;
+    height: 10vw;
     display: flex;
     margin-top: 1px;
 }
@@ -302,8 +210,8 @@ input[submit]
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 200px;
-    height: 35px;
+    width: 56vw;
+    height: 10vw;
     display: flex;
     margin-top: 5px;
 }

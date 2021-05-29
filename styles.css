@@ -1,3 +1,10 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    position: relative;
+    margin:0px;
+}
 p
 {
     font-size: 1.1vw;
@@ -16,17 +23,10 @@ h2
 h3{
     font-size: 14px;
 }
-body
-{
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    position: relative;
-    margin:0px;
-}
 #main_wrapper
 {
     width: 96%;
-    margin: auto;
+    margin: 0 auto;
     height: 100%;
     position: relative;
 }
@@ -34,7 +34,7 @@ body
 {
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 20px;
 }
 img#logo1
@@ -145,16 +145,15 @@ input:focus
     position: relative;
     left: 40px;
 }
+#small_button
+{
+    display: none;
+}
 #search_icone
 {
     text-indent: -9999px;
     position: relative;
     right: 20px;
-
-}
-#button_small
-{
-    display: none;
 }
 
 /* Div contenant les filtres */
@@ -193,16 +192,6 @@ input:focus
     margin-left: 8px;
     font-weight: bold;
     font-size: 13px;
-}
-.icônes2
-{
-    background-color: #DEEBFF;
-    width: 30px;
-    height: 35px;
-    border-radius: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .filtre2
 {
