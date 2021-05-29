@@ -12,7 +12,6 @@ h1
     left: 10px;
     font-family: 'Raleway';
 }
-
 #introduction
 {
     position: absolute;
@@ -33,6 +32,8 @@ h2
     max-width: 600px;
     margin: auto;
     position: relative;
+    font-size: 15px;
+    
 }
 header
 {
@@ -172,7 +173,7 @@ input:focus
    display: none;
     
 }
-#button_small
+#small_button
 {
     background-color: #0065FC;
     height: 40px;
@@ -184,6 +185,8 @@ input:focus
     display: flex;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    position: absolute;
+    right: 20px;
 }
 input[submit]
 {
@@ -192,10 +195,9 @@ input[submit]
 #search_icone
 {
     text-indent: 0px;
-    bottom: 27px;
-    left: 14px;
-    color: white;
+    color: rgb(5, 0, 0);
     font-size: 15px;
+    
     
     
 
@@ -397,8 +399,8 @@ input[submit]
     height: 600px; 
     margin-top: 15px;
     width: 98%;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: center;
+    margin: 0 auto;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
@@ -500,10 +502,11 @@ img.photoshébergement
     height: 600px; 
     margin-top: 15px;
     margin-bottom: 7px;
-    margin-left: 10px;
     position: relative;
     top: -15px;
     width: 98%;
+    justify-content: center;
+    margin: 0 auto;
 }
 /* texte afficher plus */
 .p4
