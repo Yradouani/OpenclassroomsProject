@@ -166,58 +166,29 @@ input::placeholder
     height: 10vw;
     margin-top: 17px;
 }
-.filtre2:hover
-{
-    color:#0065FC;
-}
 #titlefilter2
 {
-    margin-bottom: 4px;
-    margin-top: 7px;
-    margin-left: 14px;
-    font-weight: bold;
     font-size: 4.5vw;
 }
 #filters1and2
 {
-    display: flex;
     margin-left: -9px;
 }
 .filtre3
 {
-    font-weight: bold;
-    border-radius: 20px;
-    border: 2px #F2F2F2 solid;
     width: 43vw;
     height: 10vw;
-    display: flex;
     margin-top: 1px;
-}
-.filtre3:hover
-{
-    color:#0065FC;
 }
 #titlefilter3
 {
-    margin-bottom: 4px;
-    margin-top: 7px;
-    margin-left: 7px;
-    font-weight: bold;
     font-size: 4.5vw;
 }
 .filtre4
 {
-    font-weight: bold;
-    border-radius: 20px;
-    border: 2px #F2F2F2 solid;
     width: 56vw;
     height: 10vw;
-    display: flex;
     margin-top: 5px;
-}
-.filtre4:hover
-{
-    color:#0065FC;
 }
 #titlefilter4
 {
@@ -225,40 +196,23 @@ input::placeholder
     margin-top: 6px;
     margin-right: 2px;
     margin-left: 11px;
-    font-weight: bold;
     font-size: 4.5vw;
 }
-.icônes
+.icones
 {
-    color:#0065FC;
-    background-color: #DEEBFF;
-    width: 36px;
-    height: 35px;
-    border-radius: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 11vw;
+    height: 10vw;
+    margin-left: -2px;
 }
-.filtres:hover
-{
-    color: #a3b6d3;
-    font-style: italic;
-}
-
-
 /* Div information */
 #info
 {
-    display: flex;
-    padding-bottom: 15px;
-    padding-top: 5px;
     margin-left: 10px;
     margin-right: 5px;
 }
 /* icône information */
 #i
 {
-    width: 25px;
     height: 20px;
     border: 1.8px #F2F2F2 solid;  
     font-size: 10px; 
@@ -267,17 +221,12 @@ input::placeholder
 /* paragraphe info */
 #p3
 {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 6px;
-    font-size: 14px;
-    
+    font-size: 14px; 
 }
 
 /* Hébergements à Marseille + Les plus populaires */
 .firstsection
 {
-    display: flex;
     flex-direction:column-reverse;
     width: 100%;
     height: 2000px;
@@ -293,85 +242,63 @@ input::placeholder
 /* h2 Hébergement à Marseille */
 #housing_title
 {
-    margin-left: 20px;
-    height: 1px;
     font-size: 20px;
-    padding-top: 5px;
-    
+    margin-top: 30px;
 }
 /* Première partie des hébergements à Marseille */
 #housingpart1
 {
-    display: flex;
     flex-direction: column;
     height: 600px; 
-    margin-top: 15px;
     width: 98%;
     justify-content: center;
     margin: 0 auto;
+    position: relative;
+    top: -15px;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
 {
-    background-color: white;
     border: 4px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 94%;
     height: 190px;
+    margin-top: 40px;
 }
    
 .Hosting_map2
 {
-    background-color: white;
     border: 4px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    border-radius: 15px; 
     width: 94%;
     height: 190px;
-
- 
 }
 .Hosting_map3
 {
-    background-color: white;
     border: 4px white solid;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 94%;
     height: 190px;
-  
-    
 }
 .Hosting_map4
 {
-    background-color: white;
     border: 4px white solid;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 94%;
     height: 190px;
-  
 }
 .Hosting_map5
 {
-    background-color: white;
     border: 4px white solid;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 94%;
     height: 190px;
-   
 }
 .Hosting_map6
 {
-    background-color: white;
     border: 4px white solid;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 94%;
     height: 190px;
-   
 }
 
 img.photoshébergement
@@ -380,32 +307,23 @@ img.photoshébergement
     height:100px;
 }
 /* Noms des hôtels */
-.noms
+.name
 {
-    font-weight: bold;
-    margin-left: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
     font-size: 14px;
 }
-.prix
+.price
 {
-    margin-left: 10px;
     margin-top: 4px;
-    margin-bottom: 4px;
     font-size: 12px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
 .stars1
 {
-    display: flex;
-    margin-left: 10px;
     font-size: 10px;
 }
 /* Deuxième partie des hébergements à Marseille */
 #housingpart2
 {
-    display: flex;
     flex-direction: column;
     height: 600px; 
     margin-top: 15px;
@@ -419,47 +337,29 @@ img.photoshébergement
 /* texte afficher plus */
 .p4
 {
-    font-weight: bold;
-    margin-left: 30px;
-    margin-bottom: 20px;
     margin-top: 0px;
     font-size: 15px;
-    position: relative;
-    top: -10px;
 }
-
 
 /* div contenant les hébergements les plus populaires + texte */
 #populaires
 {
     border-radius: 0px;
-    background-color: #F2F2F2;
     width: 100%;  
     height:630px;
-    position: relative;
     left: 0px;
 }
     
 /*contener du h2 + icône populaires*/
 #texte
 {
-    
-    display: flex;
     padding-left: 10px;
     padding-right: 10px;
     height: 10%;
 }
 /* h2 "les plus populaires" */
-#pop
+#popular_title
 {
-    margin: 15px;
-    font-size: 20px;
-}
-#icônepopulaires
-{
-    margin-top: 15px;
-    position: absolute;
-    right: 30px;
     font-size: 20px;
 }
 /* Cartes d'hébergements des logements les plus populaires */
@@ -467,42 +367,24 @@ img.photoshébergement
 {
     width: 82%;
     height: 110px;
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 4px white solid;
-    display: flex;
-    position: absolute; 
-    right: 25px;  
+    right: 27px;  
     top: 15%;
 }
 .hotels2
 {
     width: 82%;
     height: 110px;
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 4px white solid;
-    display: flex;
-    position: absolute; 
-    right: 25px;  
-    bottom: 160px;
+    right: 27px;  
+    bottom: 167px;
 }
 .hotels3
 {
     width: 82%;
     height: 110px;
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 4px white solid;
-    display: flex;
-    position: absolute; 
-    right: 25px;  
+    right: 27px;  
     bottom: 30px;
 }
 img.photospopulaires
@@ -529,15 +411,15 @@ img.photospopulaires
 #loisir
 {
     position: absolute;
-    top: 2400px;
+    top: 2370px;
     width: 100%;
     margin-right: 5px;
     height: 1600px;
 }
 /* h2 Activités à Marseille */
-#activités
+#activities_title
 {
-    font-size: 25px;
+    font-size: 20px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
 .loisir1
@@ -554,18 +436,18 @@ img.photospopulaires
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 280px;
-    height: 160px;
-    margin-left: 15px;
+    width: 92%;
+    height: 170px;
+    margin-left: 10px;
 }
 img.photosactivitésgrandes
 {
-    width: 280px;
+    width: 100%;
     height: 120px;
 }
 img.photosactivitéspetites
 {
-    width: 280px; 
+    width: 100%; 
     height: 120px;
 }
 /* noms des activités des grandes photos */
@@ -589,6 +471,7 @@ img.photosactivitéspetites
 {
     margin-left: 15px;
     margin-top: 23px;
+    width: 98%;
    
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
@@ -598,8 +481,8 @@ img.photosactivitéspetites
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 280px;
-    height: 160px;
+    width: 92%;
+    height: 170px;
     margin-bottom: 25px;  
     
 }
@@ -609,7 +492,7 @@ footer
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 3560px;
+    top: 3650px;
     height: 450px;
 }
 #findepage

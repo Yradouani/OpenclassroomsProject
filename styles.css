@@ -271,7 +271,7 @@ input:focus
     font-weight: bold;
     font-size: 13px;
 }
-.icônes
+.icones
 {
     color:#0065FC;
     background-color: #DEEBFF;
@@ -283,12 +283,6 @@ input:focus
     justify-content: center;
     font-size: 13px;
 }
-.filtres:hover
-{
-    color: #a3b6d3;
-    font-style: italic;
-}
-
 
 /* Div information */
 #info
@@ -325,7 +319,6 @@ input:focus
 {
     display: flex;
     width: 98%;
-
     position: relative;
     margin: 0 -5px;
     height: 500px;
@@ -423,18 +416,18 @@ input:focus
 }
 img.photoshébergement
 {
-    width:250px ;
+    width:250px;
     height:95px;
 }
 /* Noms des hôtels */
-.noms
+.name
 {
     font-weight: bold;
     margin-left: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
-.prix
+.price
 {
     margin-left: 10px;
     margin-top: 2px;
