@@ -324,6 +324,7 @@ input:focus
     margin: 0 -5px;
     height: 600px;
 }
+
 /* div contenant les hébergements à Marseille + texte */
 #logements 
 {
@@ -493,7 +494,7 @@ img.photoshébergement
     margin-left: 30px;
     margin-top: 15px;
 }
-#icônepopulaires
+#popular_icone
 {
     margin-top: 15px;
     position: absolute;
@@ -687,4 +688,46 @@ footer
 #text_7
 {
     margin-top: -5px;
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 1023px) and (orientation : landscape) 
+{
+    .firstsection
+    {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #logements
+    {
+        width: 100%;
+    }
+    #most_popular
+    {
+        width: 100%;
+        display: flex;
+    }
+    #populaires
+    {
+        height: 500px;
+        width: 100%;
+    }
+    #loisir
+    {
+        top: 1100px;
+    }
+    .hotels1
+    {
+        width: 250px;
+        height: 185px;
+    }
+    .hotels2
+    {
+        width: 250px;
+        height: 185px;
+    }
+    .hotels3
+    {
+        width: 250px;
+        height: 185px;
+    }
 }
