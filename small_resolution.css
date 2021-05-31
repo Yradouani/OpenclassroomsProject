@@ -134,7 +134,7 @@ nav
     border-radius: 28px;
     border: 1px #F2F2F2 solid;
     height: 55px;
-    width: 88vw;
+    width: 90%;
     margin-left: 13px;
     position: relative;
     top: 10px;
@@ -157,8 +157,8 @@ nav
 #rechercher1
 {
     border: none;
-    margin-left: 15px;
-    width: 200px;
+    margin-left: 15%;
+    width: 240px;
     height: 45px;
     margin-top: 3px;
 }
@@ -168,7 +168,7 @@ input::placeholder
     color: black;
     opacity: 1;
     font-family: 'Raleway';
-    font-size: 20px;  
+    font-size: 4.5vw;  
 }
 /*enlève la bordure lors du clic sur le bouton de recherche*/
 input:focus
@@ -179,15 +179,6 @@ input:focus
 #button
 {  
     display: none;
-    background-color: #0065FC;
-    height: 45px;
-    width: 100px;
-    border : none;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    color: white;
-    position: relative;
-    left: 40px;
 }
 #small_button
 {
@@ -197,20 +188,21 @@ input:focus
     border : none;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    color: white;
     display: flex;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     position: absolute;
-    right: -3px;
+    right: 0;
 }
 #search_icone
 {
     text-indent: 0px;
-    color: rgb(5, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     position: relative;
-    left: 100px;
+    left: 380px;
+    bottom: 16px;
+
 }
 /* Div contenant les filtres */
 #filtres
@@ -243,10 +235,11 @@ input:focus
 }
 #titlefilter1
 {
-    margin-left: 8px;
+    margin-left: 12px;
     font-weight: bold;
     font-size: 4.5vw;
-    margin-top: 11px;
+    display: flex;
+    align-items: center;
 }
 .filtre1:hover
 {
@@ -255,7 +248,7 @@ input:focus
 .filtre2
 {
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
@@ -266,11 +259,11 @@ input:focus
 }
 #titlefilter2
 {
-    margin-bottom: 4px;
-    margin-left: 14px;
     font-weight: bold;
     font-size: 4.5vw;
-    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
 
 }
 .filtre2:hover
@@ -281,26 +274,27 @@ input:focus
 {
     display: flex;
     margin-left: -9px;
+    margin-top: -5px;
 }
 .filtre3
 {
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
     margin-right: 10px;
     width: 43vw;
     height: 11vw;
-    margin-top: 1px;
+    margin-top: 10px;
 }
 #titlefilter3
 {
-    margin-bottom: 4px;
-    margin-left: 7px;
     font-weight: bold;
     font-size: 4.5vw;
-    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
 }
 .filtre3:hover
 {
@@ -309,22 +303,22 @@ input:focus
 .filtre4
 {
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
     margin-right: 10px;
     width: 57vw;
     height: 11vw;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 #titlefilter4
 {
     font-weight: bold;
-    margin-right: 2px;
-    margin-left: 11px;
+    margin-left: 12px;
     font-size: 4.5vw;
-    margin-top: 11px;
+    display: flex;
+    align-items: center;
 }
 .filtre4:hover
 {

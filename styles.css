@@ -7,17 +7,17 @@ body
 }
 p
 {
-    font-size: 1.1vw;
+    font-size: 13px;
     font-weight: 500;
 }
 h1
 {
-    font-size: 1.5vw;
+    font-size: 18px;
     font-weight: bold;
 }
 h2
 {
-    font-size: 1.5vw;
+    font-size: 18px;
     margin-left: 10px;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ h3
 }
 img#logo1
 {
-    width:7vw;
+    width:100px;
     height: 50px;
 }
 /* Menu de navigation */
@@ -170,7 +170,7 @@ input:focus
 {
     font-weight: bold;
     margin-top: 33px;
-    font-size: 1.2vw;
+    font-size: 13px;
     margin-left: 5px;
 }
 .filtre1
@@ -193,16 +193,17 @@ input:focus
 #titlefilter1
 {
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 13px;
     display: flex;
     align-items: center;
+    margin-left: 12px;
 }
 .filtre2
 {
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 125px;
+    width: 120px;
     height: 40px;
     display: flex;
     margin-left: 15px;
@@ -218,7 +219,8 @@ input:focus
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 13px;
+    margin-left: 12px;
 }
 #filters1and2
 {
@@ -245,14 +247,15 @@ input:focus
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 13px;
+    margin-left: 12px;
 }
 .filtre4
 {
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 205px;
+    width: 190px;
     height: 40px;
     display: flex;
     margin-left: 15px;
@@ -266,9 +269,10 @@ input:focus
 #titlefilter4
 {
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 13px;
     display: flex;
     align-items: center;
+    margin-left: 12px;
     
 }
 .icones
@@ -282,6 +286,7 @@ input:focus
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    margin-left: -2px;
 }
 
 /* Div information */
@@ -498,7 +503,7 @@ img.photoshébergement
     margin-top: 15px;
     position: absolute;
     right: 30px;
-    font-size: 1.5vw;
+    font-size: 18px;
 }
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
@@ -581,8 +586,17 @@ img.photospopulaires
 .loisir1
 {
     display: flex;
-    margin-right: 15px;
+    margin-right: 5px;
     width: 100%;
+   
+}
+#activities_bloc1
+{
+    display: flex;
+}
+#activities_bloc2
+{
+    display: flex;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
@@ -593,15 +607,16 @@ img.photospopulaires
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     height: 405px;
     margin-left: 30px;
+    width: 265px;
 }
 img.big_activities_pictures
 {
-    width: 290px; 
+    width: 100%; 
     height: 350px;
 }
 img.small_activities_pictures
 {
-    width: 300px; 
+    width: 100%; 
     height: 135px;
 }
 /* noms des activités des grandes photos */
@@ -633,6 +648,7 @@ img.small_activities_pictures
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     height: 190px;
     margin-bottom: 25px;  
+    width: 265px;
 }
 
 footer
@@ -695,7 +711,7 @@ footer
     {
         flex-direction: column;
         margin: 0 auto;
-        height: 900px;
+        height: 870px;
     }
     #logements
     {
@@ -720,17 +736,22 @@ footer
     }
     #housingpart1
     {
-        width: 96%;
+        width: 100%;
         justify-content: space-around;
+       
     }
     #housingpart2
     {
-        width: 96%;
+        width: 100%;
         justify-content: space-around;
+    }
+    .p4
+    {
+        font-size: 14px;
     }
     #loisir
     {
-        top: 1400px;
+        top: 1220px;
     }
     .hotels1
     {
@@ -752,11 +773,37 @@ footer
     }
     img.photospopulaires
 {
-    width:145px;
+    width:140px;
     height:100%;
+}
+.textehotel
+{
+    margin-left: -15px;
+}
+.part1
+{
+    display: flex;
+}
+.loisir1
+{
+    flex-direction: column;
+}
+.picture
+{
+    width: 30%;
+    height: 165px;
+}
+.hobbies
+{
+    width: 30%;
+    height: 165px;
+}
+#activities_bloc1
+{
+    width: 100%;
 }
     footer
     {
-        top: 1900px;
+        top: 2400px;
     }
 }
