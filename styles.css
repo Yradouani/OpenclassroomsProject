@@ -657,20 +657,20 @@ h3
 {
     font-weight: bold;
 }
-#àpropos
+#footer_text_1
 {
     height: 70%;
     position: absolute;
     left: 3%;
     line-height: 20px;
 }
-#héberg
+#footer_text_2
 {
     position: absolute;
     left: 34%;
     line-height: 20px;
 }
-#assistance
+#footer_text_3
 {
     position: absolute;
     left: 65%;
