@@ -20,6 +20,7 @@ h2
     min-width: 200px;
     max-width: 600px;
     font-size: 15px;
+  
 }
 header
 {
@@ -78,7 +79,7 @@ nav
 .inscription
 {
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 1%; 
 }
 #introduction
