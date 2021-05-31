@@ -500,7 +500,7 @@ footer
     width: 100%;
     position: absolute;
     top: 4480px;
-    height: 450px;
+    height: 500px;
 }
 #findepage
 {
@@ -522,19 +522,20 @@ h3
     top: 20px;
     left: 30px;
 }
-#text_1
+#text_2
 {
-    height: 50px;
+    position: relative;
+
 }
 #footer_text_2
 {
     width: 100%;
     left: 30px;
-    top: 180px;
+    top: 200px;
 }
 #footer_text_3
 {
     width: 100%;
     left: 30px;
-    top: 305px;
+    top: 345px;
 }
