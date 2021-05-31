@@ -365,15 +365,12 @@ img.photoshébergement
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
 {
-    width: 82%;
     height: 110px;
     border: 4px white solid;
     right: 27px;  
-    top: 15%;
 }
 .hotels2
 {
-    width: 82%;
     height: 110px;
     border: 4px white solid;
     right: 27px;  
@@ -381,28 +378,19 @@ img.photoshébergement
 }
 .hotels3
 {
-    width: 82%;
     height: 110px;
     border: 4px white solid;
     right: 27px;  
     bottom: 30px;
 }
-img.photospopulaires
-{
-    width:110px;
-    height:110px;
-}
 .textehotel
 {
-    padding-top: 7px;
     position: absolute;
     left: 45%;
 }
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
-    display: flex;
-    padding-top: 27px;
     padding-left: 7px;
     font-size: 10px;
 }
@@ -410,10 +398,8 @@ img.photospopulaires
 /* div Activités */
 #loisir
 {
-    position: absolute;
     top: 2370px;
     width: 100%;
-    margin-right: 5px;
     height: 1600px;
 }
 /* h2 Activités à Marseille */
@@ -440,12 +426,12 @@ img.photospopulaires
     height: 170px;
     margin-left: 10px;
 }
-img.photosactivitésgrandes
+img.big_activities_pictures
 {
     width: 100%;
     height: 120px;
 }
-img.photosactivitéspetites
+img.small_activities_pictures
 {
     width: 100%; 
     height: 120px;

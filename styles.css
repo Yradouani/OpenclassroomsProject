@@ -17,6 +17,7 @@ h1
 }
 h2
 {
+    font-size: 1.5vw;
     margin-left: 10px;
     font-weight: bold;
 }
@@ -96,17 +97,17 @@ nav
     display: flex;
     border-radius: 28px;
     border: 1px #F2F2F2 solid;
-    height: 33px;
+    height: 45px;
     width: 330px;
 }
 /*icône de recherche*/
 #rechercher
 {
     background-color: #F2F2F2;
-    width: 40px;
-    height: 33px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    width: 45px;
+    height: 45px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -114,10 +115,10 @@ nav
 /*Champs de recherche*/
 #rechercher1
 {
-    height: 20px;
+    height: 45px;
     border: none;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 15px;
+   
 }
 input::placeholder
 {
@@ -125,7 +126,7 @@ input::placeholder
     color: black;
     opacity: 1;
     font-family: 'Raleway';
-    font-size: 13px;
+    font-size: 15px;
 }
 /*enlève la bordure lors du clic sur le bouton de recherche*/
 input:focus
@@ -136,11 +137,11 @@ input:focus
 #button
 {  
     background-color: #0065FC;
-    height: 33px;
+    height: 45px;
     width: 100px;
     border : none;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
     color: white;
     position: relative;
     left: 40px;
@@ -172,8 +173,8 @@ input:focus
     font-weight: bold;
     border-radius: 30px;
     border: 2px #F2F2F2 solid;
-    width: 145px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     display: flex;
     margin-left: 20px;
     margin-top: 16px;
@@ -187,11 +188,10 @@ input:focus
 }
 #titlefilter1
 {
-    display: flex;
-    align-items: center;
     margin-left: 8px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
+    margin-top: 11px;
 }
 .filtre2
 {
@@ -199,7 +199,7 @@ input:focus
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
     width: 125px;
-    height: 30px;
+    height: 40px;
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
@@ -213,10 +213,10 @@ input:focus
 #titlefilter2
 {
     margin-bottom: 4px;
-    margin-top: 7px;
+    margin-top: 11px;
     margin-left: 14px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
 }
 #filters1and2
 {
@@ -228,7 +228,7 @@ input:focus
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
     width: 145px;
-    height: 30px;
+    height: 40px;
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
@@ -242,18 +242,18 @@ input:focus
 #titlefilter3
 {
     margin-bottom: 4px;
-    margin-top: 7px;
+    margin-top: 11px;
     margin-left: 7px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
 }
 .filtre4
 {
     font-weight: bold;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
-    width: 200px;
-    height: 30px;
+    width: 205px;
+    height: 40px;
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
@@ -266,22 +266,22 @@ input:focus
 }
 #titlefilter4
 {
-    margin-top: 9px;
+    margin-top:11px;
     margin-left: 18px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
 }
 .icones
 {
     color:#0065FC;
     background-color: #DEEBFF;
-    width: 31px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /* Div information */
@@ -321,7 +321,7 @@ input:focus
     width: 98%;
     position: relative;
     margin: 0 -5px;
-    height: 500px;
+    height: 600px;
 }
 /* div contenant les hébergements à Marseille + texte */
 #logements 
@@ -336,8 +336,6 @@ input:focus
 #housing_title
 {
     margin-left: 20px;
-    height: 1px;
-    font-size: 18px;
     padding-top: 5px;
 }
 /* Première partie des hébergements à Marseille */
@@ -345,7 +343,16 @@ input:focus
 {
     display: flex;
     height: 170px; 
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* Deuxième partie des hébergements à Marseille */
+#housingpart2
+{
+    display: flex;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
@@ -354,8 +361,8 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 280px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
@@ -365,8 +372,8 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 285px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
@@ -376,8 +383,8 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 285px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
@@ -387,8 +394,8 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 285px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
@@ -398,8 +405,8 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 285px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
@@ -409,15 +416,15 @@ input:focus
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 285px;
-    height: 155px;
+    width: 250px;
+    height: 185px;
     overflow: hidden;
     margin: 10px; 
 }
 img.photoshébergement
 {
     width:250px;
-    height:95px;
+    height:115px;
 }
 /* Noms des hôtels */
 .name
@@ -432,7 +439,7 @@ img.photoshébergement
     margin-left: 10px;
     margin-top: 2px;
     margin-bottom: 4px;
-    font-size: 11px;
+    font-size: 12px;
     
 }
 /* div contenant les étoiles des hébergements à Marseille */
@@ -450,21 +457,15 @@ img.photoshébergement
 .gris
 {
     color :#DEEBFF;
+    padding-left: 2px;
 }
-/* Deuxième partie des hébergements à Marseille */
-#housingpart2
-{
-    display: flex;
-    height: 150px;
-    margin-top: 10px;
-}
+
 /* texte afficher plus */
 .p4
 {
     font-weight: bold;
     margin-left: 30px;
-    margin-bottom: 20px;
-    margin-top: 45px;
+    margin-top: 86px;
 }
 
 
@@ -490,22 +491,21 @@ img.photoshébergement
 /* h2 "les plus populaires" */
 #popular_title
 {
-    margin: 15px;
-    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 #icônepopulaires
 {
-    
     margin-top: 15px;
     position: absolute;
     right: 30px;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
 {
-    width: 82%;
-    height: 21%;
+    width: 80%;
+    height: 24%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -513,13 +513,13 @@ img.photoshébergement
     border: 3px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
-    top: 15%;
+    right:45px;  
+    top: 14%;
 }
 .hotels2
 {
-    width: 82%;
-    height: 21%;
+    width: 80%;
+    height: 24%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -527,13 +527,13 @@ img.photoshébergement
     border: 3px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
+    right: 45px;  
     bottom: 33%;
 }
 .hotels3
 {
-    width: 82%;
-    height: 21%;
+    width: 80%;
+    height: 24%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -541,24 +541,25 @@ img.photoshébergement
     border: 3px white solid;
     display: flex;
     position: absolute; 
-    right: 30px;  
+    right: 45px;  
     bottom: 5%;
 }
 img.photospopulaires
 {
-    width:90px;
-    height:140px;
+    width:145px;
+    height:100%;
 }
 .textehotel
 {
-    padding-top: 7px;
+    padding-top: 11px;
+    padding-left: 15px;
 }
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
     display: flex;
-    padding-top: 27px;
-    padding-left: 9px;
+    padding-top: 47px;
+    padding-left: 10px;
     font-size: 11px;
 }
 
@@ -566,9 +567,9 @@ img.photospopulaires
 #loisir
 {
     position: absolute;
-    top: 780px;
+    top: 890px;
     width: 98%;
-    height: 500px;
+    height: 600px;
     margin-right: 5px;
     padding-top: 30px;
 }
@@ -591,34 +592,32 @@ img.photospopulaires
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 330px;
+    height: 405px;
     margin-left: 30px;
 }
-img.photosactivitésgrandes
+img.big_activities_pictures
 {
     width: 290px; 
-    height: 280px;
+    height: 350px;
 }
-img.photosactivitéspetites
+img.small_activities_pictures
 {
     width: 300px; 
-    height: 100px;
+    height: 135px;
 }
 /* noms des activités des grandes photos */
-.nomsactivités1
+.activities_name1
 {
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 8px;
-    margin-bottom: 10px;
+    margin-top: 12px;
 }
 /* noms des activités des petites photos */
-.nomsactivités2
+.activities_name2
 {
     font-weight: bold;
-    margin-left: 15px;
-    margin-top: 3px;
-    margin-bottom: 10px;
+    margin-left: 17px;
+    margin-top: 12px;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .part1
@@ -633,7 +632,7 @@ img.photosactivitéspetites
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 145px;
+    height: 190px;
     margin-bottom: 25px;  
 }
 
@@ -642,7 +641,7 @@ footer
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 1250px;
+    top: 1450px;
     height: 140px;
 }
 #findepage
