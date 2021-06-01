@@ -587,8 +587,7 @@ img.photospopulaires
 {
     display: flex;
     margin-right: 5px;
-    width: 100%;
-   
+    width: 100%;  
 }
 #activities_bloc1
 {
@@ -640,7 +639,37 @@ img.small_activities_pictures
     width: 23%;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
-.hobbies
+.hobbies1
+{
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    height: 190px;
+    margin-bottom: 25px;  
+    width: 265px;
+}
+.hobbies2
+{
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    height: 190px;
+    margin-bottom: 25px;  
+    width: 265px;
+}
+.hobbies3
+{
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    height: 190px;
+    margin-bottom: 25px;  
+    width: 265px;
+}
+.hobbies4
 {
     border: 1px #F2F2F2 solid;
     border-radius: 15px;
@@ -724,15 +753,23 @@ footer
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-top: 20px;
+    
     }
     #populaires
     {
 
-        height: 400px;
+        height: 700px;
         width: 100%;
         margin-left: -35px;
         margin-top: 20px;
+    }
+    .textehotel
+    {
+       margin-top: -5px;
+    }
+    .stars2
+    {
+        padding-top: 5px;
     }
     #housingpart1
     {
@@ -756,54 +793,86 @@ footer
     .hotels1
     {
         width: 30%;
-        height: 165px;
+        height: 195px;
         position: static;
+        flex-direction: column;
     }
     .hotels2
     {
         width: 30%;
-        height: 165px;
+        height: 195px;
         position: static;
+        flex-direction: column;
     }
     .hotels3
     {
         width: 30%;
-        height: 165px;
+        height: 195px;
         position: static;
+        flex-direction: column;
     }
     img.photospopulaires
-{
-    width:140px;
-    height:100%;
-}
-.textehotel
-{
-    margin-left: -15px;
-}
-.part1
-{
-    display: flex;
-}
-.loisir1
-{
+    {
+    width:100%;
+    height:120px;
+    }
+    .textehotel
+    {
+        margin-left: -15px;
+    }
+    .part1
+    {
+        display: flex;
+        width: 550px;
+    }
+    .loisir1
+    {
     flex-direction: column;
-}
-.picture
-{
-    width: 30%;
-    height: 165px;
-}
-.hobbies
-{
-    width: 30%;
-    height: 165px;
-}
-#activities_bloc1
-{
-    width: 100%;
-}
+    }
+    .picture
+    {
+        width: 260px;
+        height: 175px;
+    }
+    .hobbies1
+    {
+        width: 260px;
+        height: 175px;
+    }
+    .hobbies2
+    {
+        width: 260px;
+        height: 175px;
+        margin-left: 30px;
+    }
+    .hobbies3
+    {
+        width: 260px;
+        height: 175px;
+    }
+    .hobbies4
+    {
+        width: 260px;
+        height: 175px;
+        margin-left: 30px;
+    }
+    #activities_bloc1
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+    #activities_bloc2
+    {
+        width: 100%;
+        margin-left: -20px;
+    }
+    img.big_activities_pictures
+    {
+        height: 130px;
+    }
     footer
     {
-        top: 2400px;
+        top: 1800px;
     }
 }
