@@ -109,7 +109,7 @@ nav
 /*Champs de recherche*/
 #rechercher1
 {
-    height: 43px;
+    height: 96%;
     border: none;
     margin-left: 15px;
    
@@ -309,8 +309,6 @@ input:focus
     display: flex;
     width: 100%;
     position: relative;
-    margin: 0 -5px;
-
 }
 
 /* div contenant les hébergements à Marseille + texte */
@@ -332,14 +330,12 @@ input:focus
 #housingpart1
 {
     display: flex;
-    height: 170px; 
     margin-top: 10px;
 }
 /* Deuxième partie des hébergements à Marseille */
 #housingpart2
 {
     display: flex;
-    height: 150px;
     margin-top: 50px;
 }
 /* Cartes d'hébergements à Marseille */
@@ -453,7 +449,6 @@ img.photoshébergement
 {
     font-weight: bold;
     margin-left: 30px;
-    margin-top: 86px;
 }
 
 
@@ -466,22 +461,15 @@ img.photoshébergement
    
 }
 /*contener du h2 + icône populaires*/
-#texte
-{
-    display: flex;
-    padding-left: 5px;
-    padding-right: 10px;
-    height: 20%;
-    padding-top: 10px;
-}
-/* h2 "les plus populaires" */
 #popular_header
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 5px 20px;
     
 }
+/* h2 "les plus populaires" */
+
 #popular_icone
 {
     margin-top: 15px;
@@ -560,11 +548,6 @@ img.photospopulaires
     width: 100%;
     margin-right: 5px;
     padding-top: 30px;
-}
-/* h2 Activités à Marseille */
-#activities_title
-{
-    font-size: 18px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
 .loisir1

@@ -58,8 +58,9 @@ nav
     margin: 20px 0 10px 0;
     border-bottom: 3px solid #0065FC;
     border-top: none;
-    padding: 0 35px 10px 35px;
     width: 50%;
+    padding-bottom: 15px;
+    text-align: center;
     
 }
 #ancre
@@ -71,9 +72,10 @@ nav
 .activities
 {
     border-bottom: 3px solid #F2F2F2;
-    padding: 0 55px;
+    text-align: center;
     width: 50%;
     margin: 20px 0 10px 0;
+    padding-top: 30px;
 }
 #ancre2
 {
@@ -120,15 +122,13 @@ nav
 }
 #search
 {
-    height: 45px;
+    width: 100%;
 }
 /*Champs de recherche*/
 #rechercher1
 {
     border: none;
-    margin-left: 15%;
-    width: 240px;
-    margin-top: 3px;
+    width: 100%;
 }
 input::placeholder
 {
@@ -137,6 +137,7 @@ input::placeholder
     opacity: 1;
     font-family: 'Raleway';
     font-size: 4.5vw;  
+
 }
 /*enlève la bordure lors du clic sur le bouton de recherche*/
 input:focus
@@ -319,20 +320,10 @@ input:focus
     background-color: #F2F2F2;
     border-radius: 0px;
     width: 100%;  
-    height:590px;
-    position: absolute;
-    top: 10px;
 }
     
 /*contener du h2 + icône populaires*/
-#texte
-{
-    display: flex;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 10%;
-}
+
 #popular_title
 {
     margin-left: 30px;
@@ -349,70 +340,55 @@ input:focus
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
 {
-    height: 140px;
-    border: 4px white solid;
-    right: 23px;
-    top: 75px; 
-    width: 85%;
+    height: 150px;
+    border: 4px white solid; 
+    width: 87%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 3px white solid;
     display: flex;
-    position: absolute; 
+    margin: 5px auto;
 
 }
 .hotels2
 {
-    height: 140px;
+    height: 150px;
     border: 4px white solid;
-    right: 23px;  
-    bottom: 199px;
-    width: 85%;
+    width: 87%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 3px white solid;
     display: flex;
-    position: absolute; 
+    margin: 5px auto;
 }
 .hotels3
 {
-    height: 140px;
+    height: 150px;
     border: 4px white solid;
-    right: 23px;  
-    bottom: 30px;
-    width: 85%;
+    width: 87%;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 3px white solid;
     display: flex;
-    position: absolute; 
+    margin: 5px auto 25px auto;
 }
 img.photospopulaires
 {
     width:145px;
     height:100%;
 }
-.textehotel
-{
-    position: absolute;
-    left: 41%;
-    padding-top: 11px;
-    padding-left: 15px;
-    
-}
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
     display: flex;
-    padding-left: 10px;
     font-size: 13px;
-    padding-top: 40px;
+    padding-bottom: 3px;
 }
 
 /* Hébergements à Marseille + Les plus populaires */
@@ -420,10 +396,8 @@ img.photospopulaires
 {
     flex-direction:column-reverse;
     width: 100%;
-    height: 2000px;
     display: flex;
     position: relative;
-    margin: 0 -5px;
 }
 /* div contenant les hébergements à Marseille + texte */
 #logements 
@@ -432,18 +406,14 @@ img.photospopulaires
     display: flex;
     flex-direction: column;
     width: 96%;
-    position: absolute;
-    top: 610px;
     border-radius: 15px;
     height: 95%;
-    margin: 0 5px;
+    margin: 0 auto;
 }
 /* h2 Hébergement à Marseille */
 #housing_title
 {
     margin-top: 30px;
-    margin-left: 20px;
-    padding-top: 5px;
 }
 /* Première partie des hébergements à Marseille */
 #housingpart1
@@ -451,24 +421,15 @@ img.photospopulaires
     display: flex;
     margin-top: 10px;
     flex-direction: column;
-    height: 770px; 
     width: 98%;
     justify-content: center;
     margin: 0 auto;
-    position: relative;
-    top: -35px;
 }
 /* Deuxième partie des hébergements à Marseille */
 #housingpart2
 {
     display: flex;
-    margin-top: 50px;
     flex-direction: column;
-    height: 740px; 
-    margin-top: 15px;
-    margin-bottom: 7px;
-    position: relative;
-    top: -35px;
     width: 98%;
     justify-content: center;
     margin: 0 auto;
@@ -476,15 +437,13 @@ img.photospopulaires
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
 {
-    background-color: white;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px; 
     border: 4px white solid;
     width: 94%;
     height: 220px;
-    margin-top: 40px;
+    margin: 10px auto; 
 }
    
 .Hosting_map2
@@ -496,7 +455,7 @@ img.photospopulaires
     background-color: white;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px; 
+    margin: 10px auto; 
 }
 .Hosting_map3
 {
@@ -507,7 +466,7 @@ img.photospopulaires
     background-color: white;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px; 
+    margin: 10px auto; 
 }
 .Hosting_map4
 {
@@ -518,7 +477,7 @@ img.photospopulaires
     background-color: white;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px; 
+    margin: 10px auto; 
 }
 .Hosting_map5
 {
@@ -529,7 +488,7 @@ img.photospopulaires
     background-color: white;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px;
+    margin: 10px auto; 
 }
 .Hosting_map6
 {
@@ -540,7 +499,7 @@ img.photospopulaires
     background-color: white;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     overflow: hidden;
-    margin: 10px; 
+    margin: 10px auto;  
 }
 
 img.photoshébergement
@@ -586,19 +545,13 @@ img.photoshébergement
 {
     font-weight: bold;
     margin-left: 30px;
-    margin-top: -5px;
     font-size: 20px;
 }
 
 /* div Activités */
 #activities_section
 {
-    position: absolute;
-    margin-right: 5px;
-    padding-top: 30px;
-    top: 2930px;
     width: 100%;
-    height: 1600px;
 }
 /* h2 Activités à Marseille */
 #activities_title
@@ -609,7 +562,16 @@ img.photoshébergement
 .loisir1
 {
     display: flex;
-    margin-right: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+#activities_bloc1
+{
+    width: 100%;
+    flex-direction: column;
+}
+#activities_bloc2
+{
     width: 100%;
     flex-direction: column;
 }
@@ -622,7 +584,7 @@ img.photoshébergement
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 90%;
     height: 210px;
-    margin-left: 17px;
+    margin: 0 auto;
 }
 img.big_activities_pictures
 {
@@ -653,10 +615,8 @@ img.small_activities_pictures
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .part1
 {
-    margin-left: 15px;
-    margin-top: 23px;
-    width: 98%;
-   
+    margin: 23px auto 0 auto;
+    width: 90%;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
 .hobbies1
@@ -665,10 +625,9 @@ img.small_activities_pictures
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 91%;
+    width: 100%;
     height: 210px;
-    margin-bottom: 25px;  
-    margin-left: 3px;  
+    margin: 0 auto 25px auto; 
 }
 .hobbies2
 {
@@ -676,10 +635,9 @@ img.small_activities_pictures
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 91%;
+    width: 100%;
     height: 210px;
-    margin-bottom: 25px;  
-    margin-left: 3px;  
+    margin: 0 auto 25px auto; 
 }
 .hobbies3
 {
@@ -687,10 +645,9 @@ img.small_activities_pictures
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 91%;
+    width: 100%;
     height: 210px;
-    margin-bottom: 25px;  
-    margin-left: 3px;  
+    margin: 0 auto 25px auto; 
 }
 .hobbies4
 {
@@ -698,10 +655,9 @@ img.small_activities_pictures
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 91%;
+    width: 100%;
     height: 210px;
-    margin-bottom: 25px;  
-    margin-left: 3px;  
+    margin: 0 auto 25px auto;  
 }
 
 footer
