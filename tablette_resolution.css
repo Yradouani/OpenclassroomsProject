@@ -4,27 +4,47 @@
     margin: 0 auto;
     height: 870px;
 }
+#filter_block
+{
+    flex-direction: column;
+}
+.filtre1
+{
+    margin: 20px 10px 0 0;
+}
+.filtre3
+{
+    margin: 20px 10px 0 0;
+}
 #logements
 {
     width: 100%;
-    margin-left: -5px;
+    margin: 0 auto;
 }
 #most_popular
 {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 #populaires
 {
     height: 700px;
     width: 100%;
-    margin-left: -35px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 .textehotel
 {
     margin-top: -5px;
+}
+.hotels1 .name br
+{
+    display: none;
+}
+.hotels3 .name br
+{
+    display: none;
 }
 .stars2
 {
@@ -82,7 +102,7 @@
     .part1
     {
         display: flex;
-        width: 550px;
+        width: 68%;
     }
     .loisir1
     {
@@ -90,41 +110,42 @@
     }
     .picture
     {
-        width: 260px;
+        width: 32%;
         height: 175px;
     }
     .hobbies1
     {
-        width: 260px;
+        width: 50%;
         height: 175px;
     }
     .hobbies2
     {
-        width: 260px;
+        width: 50%;
         height: 175px;
         margin-left: 30px;
     }
     .hobbies3
     {
-        width: 260px;
+        width: 50%;
         height: 175px;
     }
     .hobbies4
     {
-        width: 260px;
+        width: 50%;
         height: 175px;
         margin-left: 30px;
     }
     #activities_bloc1
     {
         width: 100%;
-        margin-top: 10px;
-        margin-left: -20px;
+        margin: 10px auto;
+        justify-content: space-between;
     }
     #activities_bloc2
     {
         width: 100%;
-        margin-left: -20px;
+        margin: 10px auto;
+        justify-content: space-between;
     }
     img.big_activities_pictures
     {
@@ -132,5 +153,5 @@
     }
     footer
     {
-        top: 1800px;
+        
     }

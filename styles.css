@@ -23,14 +23,19 @@ h2
 }
 h3
 {
-    font-size: 1.2vw;
+    font-size: 16px;
     font-weight: bold;
 }
 #main_wrapper
 {
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     height: 100%;
+}
+header
+{
+    width:96%;
+    margin: 10px auto;
 }
 .header
 {
@@ -54,6 +59,8 @@ nav
 #navigation
 {
     display: flex;
+    width: 68%;
+    justify-content: space-between;
 }
 /* navigation */
 .housing
@@ -71,7 +78,8 @@ nav
 /* navigation */
 .activities
 {
-    margin: 18px 0 0 33px;
+    display: flex;
+    align-items: center;
 }
 #ancre2
 {
@@ -83,7 +91,10 @@ nav
 {
     font-weight: bold;
     color : #0065FC;
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    width: 22%;
+    text-align: center;
 }
 
 /*div de la section de recherche*/
@@ -155,13 +166,11 @@ input:focus
 #filter_block
 {
     display : flex;
-    padding-top: 5px;
-    margin-bottom: 12px;
+    margin: 30px 0 15px 0;
 }
 .textfilters
 {
     font-weight: bold;
-    margin-top: 33px;
     font-size: 13px;
     margin-left: 5px;
 }
@@ -172,8 +181,8 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 25px;
-    margin-top: 20px;
     margin-right: 10px;
+    height: 40px;
  
 }
 .filtre1:hover
@@ -195,8 +204,8 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
-    margin-top: 20px;
     margin-right: 10px;
+    height: 40px;
 }
 .filtre2:hover
 {
@@ -214,6 +223,10 @@ input:focus
 {
     display: flex;
 }
+#filters3and4
+{
+    display: flex;
+}
 .filtre3
 {
     font-weight: bold;
@@ -221,8 +234,8 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
-    margin-top: 20px;
     margin-right: 10px;
+    height: 40px;
 }
 .filtre3:hover
 {
@@ -243,8 +256,8 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
-    margin-top: 20px;
     margin-right: 10px;
+    height: 40px;
 }
 .filtre4:hover
 {
@@ -304,6 +317,11 @@ input:focus
 
 
 /* Hébergements à Marseille + Les plus populaires */
+section
+{
+    width: 96%;
+    margin: 0 auto;
+}
 .firstsection
 {
     display: flex;
@@ -336,7 +354,6 @@ input:focus
 #housingpart2
 {
     display: flex;
-    margin-top: 50px;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
@@ -546,25 +563,26 @@ img.photospopulaires
 #activities_section
 {
     width: 100%;
-    margin-right: 5px;
     padding-top: 30px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
 .loisir1
 {
     display: flex;
-    margin-right: 5px;
+    margin: 0 auto;
     width: 100%;  
 }
 #activities_bloc1
 {
     display: flex;
     width: 50%;
+    margin-right: 15px;
 }
 #activities_bloc2
 {
     display: flex;
     width: 50%;
+    margin-left: 15px;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
@@ -591,14 +609,16 @@ img.small_activities_pictures
 {
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 14px;
+    display: flex;
+    align-items: center;
 }
 /* noms des activités des petites photos */
 .activities_name2
 {
     font-weight: bold;
     margin-left: 17px;
-    margin-top: 14px;
+    display: flex;
+    align-items: center;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .part1
