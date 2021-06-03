@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title img src="Reservia@3x.png">Reservia</title>
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="small_resolution.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="Documents/Premierprojet/fontawesome-free-5.15.3-web.css" rel="stylesheet">
@@ -24,7 +24,9 @@
                         <p class="housing"><a href ="#Hébergements" id=ancre >Hébergements</a></p>
                         <p class="activities"><a href ="#Activités" id=ancre2 >Activités</a></p>
                     </div>
-                        <p class="inscription">S'inscrire</p>
+                    <div class="inscription">
+                        <p>S'inscrire</p>
+                    </div>
                 </nav>
             </div>
 
@@ -44,7 +46,7 @@
                 </span>
             </div>
 
-            <div id="filtres">
+            <div id="filter_block">
                 <p class="textfilters">Filtres</p>
                 
                 <div id="filters1and2">
@@ -205,7 +207,7 @@
                 </div>
 
             <div id="populaires">
-                <div id="texte">
+                <div id="popular_header">
                     <h2 id = "popular_title">Les plus populaires</h2>
                     <i class="fas fa-chart-line" id="popular_icone"></i>
                 </div>
@@ -213,8 +215,10 @@
                     <div class="hotels1">
                         <a href=""><img src="Pictures/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="photospopulaires" alt="hôtel Le soleil du matin"/></a>
                         <div class="textehotel">
-                            <p class="name">Hôtel Le soleil du <br>matin</p>
-                            <p class="price">Nuit à partir de 128€</p>
+                            <div id="hotel_text">
+                                <p class="name">Hôtel Le soleil du <br>matin</p>
+                                <p class="price">Nuit à partir de 128€</p>
+                            </div>
                             <div class="stars2">
                                 <div class="blue">
                                     <i class="fas fa-star"></i>
@@ -229,8 +233,10 @@
                     <div class="hotels2">
                         <a href=""><img src="Pictures/aw-creative-VGs8z60yT2c-unsplash.jpg" class="photospopulaires" alt="Au coeur de l'eau Chambres d'hôtes"/></a>
                         <div class="textehotel">
-                            <p class="name">Au coeur de l'eau Chambres d'hôtes</p>
-                            <p class="price">Nuit à partir de 71€</p>
+                            <div id="hotel_text">
+                                <p class="name">Au coeur de l'eau Chambres d'hôtes</p>
+                                <p class="price">Nuit à partir de 71€</p>
+                            </div>
                             <div class="stars2">
                                 <div class="blue">
                                     <i class="fas fa-star"></i>
@@ -248,8 +254,10 @@
                     <div class="hotels3">
                         <a href=""><img src="Pictures/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="photospopulaires" alt="Hôtel Tout bleu et Blanc"/></a>
                         <div class="textehotel">
-                            <p class="name">Hôtel Tout bleu et <br>Blanc</p>
-                            <p class="price">Nuit à partir de 68€</p>
+                            <div id="hotel_text">
+                                <p class="name">Hôtel Tout bleu et <br>Blanc</p>
+                                <p class="price">Nuit à partir de 68€</p>
+                            </div>
                             <div class="stars2">
                                 <div class="blue">
                                     <i class="fas fa-star"></i>
@@ -269,7 +277,7 @@
         </section>
 
     
-            <div id="loisir">
+            <div id="activities_section">
                 <h2 id = "activities_title">Activités à Marseille</h2>
                     <div class="loisir1">
                         <div id="activities_bloc1">
@@ -342,5 +350,5 @@
                 </div>
             </footer>
         </div>
-    </body>
+</body>
 </html>
