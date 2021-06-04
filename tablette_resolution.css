@@ -7,14 +7,23 @@
 #filter_block
 {
     flex-direction: column;
+    margin: 15px 0;
 }
 .filtre1
 {
     margin: 20px 10px 0 0;
 }
+.filtre2
+{
+    margin-top: 20px;
+}
 .filtre3
 {
     margin: 20px 10px 0 0;
+}
+.filtre4
+{
+    margin-top: 20px;
 }
 #logements
 {
@@ -36,7 +45,8 @@
 }
 .textehotel
 {
-    margin-top: -5px;
+    padding: 0px 10px 2px 15px;
+    height: 100%;
 }
 .hotels1 .name br
 {
@@ -48,7 +58,7 @@
 }
 .stars2
 {
-    padding-top: 5px;
+    padding-top: 3px;
 }
     #housingpart1
     {
@@ -72,21 +82,21 @@
     .hotels1
     {
         width: 30%;
-        height: 195px;
+        height: 75%;
         position: static;
         flex-direction: column;
     }
     .hotels2
     {
         width: 30%;
-        height: 195px;
+        height: 75%;
         position: static;
         flex-direction: column;
     }
     .hotels3
     {
         width: 30%;
-        height: 195px;
+        height: 75%;
         position: static;
         flex-direction: column;
     }
@@ -146,6 +156,10 @@
         width: 100%;
         margin: 10px auto;
         justify-content: space-between;
+    }
+    img.small_activities_pictures
+    {
+        height: 130px;
     }
     img.big_activities_pictures
     {

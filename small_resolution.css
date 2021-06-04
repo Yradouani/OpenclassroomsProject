@@ -76,6 +76,7 @@ nav
     width: 50%;
     margin: 20px 0 10px 0;
     padding-top: 30px;
+    display: inline;
 }
 #ancre2
 {
@@ -91,6 +92,7 @@ nav
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
+    width: auto;
     
 }
 #introduction
@@ -192,6 +194,7 @@ input:focus
     border-radius: 30px;
     border: 2px #F2F2F2 solid;
     display: flex;
+    margin: 0 0;
 }
 #titlefilter1
 {
@@ -226,8 +229,12 @@ input:focus
 #filters1and2
 {
     display: flex;
-    margin-left: -9px;
-    margin-top: -5px;
+    margin-left: 13px;
+}
+#filters3and4
+{
+    flex-direction: column;
+    margin-left: 13px;
 }
 .filtre3
 {
@@ -236,7 +243,7 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     width: 43vw;
-    margin-top: 10px;
+    margin: 20px 0 0 0;
 }
 #titlefilter3
 {
@@ -244,6 +251,7 @@ input:focus
     font-size: 4.5vw;
     display: flex;
     align-items: center;
+    
 }
 .filtre3:hover
 {
@@ -256,7 +264,7 @@ input:focus
     border: 2px #F2F2F2 solid;
     display: flex;
     width: 57vw;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 #titlefilter4
 {
@@ -285,11 +293,7 @@ input:focus
 /* Div information */
 #info
 {
-    display: flex;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin: 0 10px;
 }
 /* icône information */
 #i
@@ -304,7 +308,7 @@ input:focus
     height: 20px;
     border: 1.8px #F2F2F2 solid;  
     font-size: 10px; 
-    margin-top: 20px;
+    margin-top: 5px;
 }
 /* paragraphe info */
 #p3
@@ -312,7 +316,11 @@ input:focus
     margin-left: 10px;
     margin-bottom: 10px;
     font-size: 17px; 
-    margin-top: 20px;
+}
+
+section
+{
+    width: 100%;
 }
 /* div contenant les hébergements les plus populaires + texte */
 #populaires
@@ -336,7 +344,10 @@ input:focus
     right: 30px;
     font-size: 20px;
 }
-
+#most_popular
+{
+    flex-direction: column;
+}
 /* Cartes d'hébergements des logements les plus populaires */
 .hotels1
 {
@@ -569,11 +580,13 @@ img.photoshébergement
 {
     width: 100%;
     flex-direction: column;
+    margin: 0 auto;
 }
 #activities_bloc2
 {
     width: 100%;
     flex-direction: column;
+    margin: 0 auto;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
