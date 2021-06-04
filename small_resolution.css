@@ -380,33 +380,14 @@ img.photoshébergement
 /* div contenant les étoiles des hébergements à Marseille */
 .stars1
 {
-    display: flex;
-    margin-left: 10px;
-    padding-top: 3px;
     font-size: 13px;
-}
-.blue
-{
-    color:#0065FC;  
-}
-.gris
-{
-    color :#DEEBFF;
-    padding-left: 2px;
 }
 /* texte afficher plus */
 .p4
 {
-    font-weight: bold;
-    margin-left: 30px;
     font-size: 20px;
 }
 
-/* div Activités */
-#activities_section
-{
-    width: 100%;
-}
 /* h2 Activités à Marseille */
 #activities_title
 {
@@ -415,8 +396,6 @@ img.photoshébergement
 /* div contenant toutes les photos + texte des activités à Marseille */
 .loisir1
 {
-    display: flex;
-    width: 100%;
     flex-direction: column;
 }
 #activities_bloc1
@@ -434,39 +413,27 @@ img.photoshébergement
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
 {
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 90%;
     height: 210px;
     margin: 0 auto;
 }
 img.big_activities_pictures
 {
-    width: 100%;
     height: 150px;
 }
 img.small_activities_pictures
 {
-    width: 100%; 
     height: 150px;
 }
 /* noms des activités des grandes photos */
 .activities_name1
 {
-    font-weight: bold;
-    margin-left: 15px;
-    margin-top:14px;
-    margin-bottom: 10px;
+    margin: 14px 0 10px 15px;
 }
 /* noms des activités des petites photos */
 .activities_name2
 {
-    font-weight: bold;
-    margin-left: 15px;
-    margin-top: 14px;
-    margin-bottom: 10px;
+    margin: 14px 0 10px 15px;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .part1
@@ -476,41 +443,25 @@ img.small_activities_pictures
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
 .hobbies1
-{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+{ 
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
 .hobbies2
 {
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
 .hobbies3
 {
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
 .hobbies4
-{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+{ 
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto;  
@@ -518,13 +469,10 @@ img.small_activities_pictures
 
 footer
 {
-    background-color: #F2F2F2;
-    width: 100%;
     height: 500px;
 }
 #findepage
 {
-    display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
@@ -538,34 +486,23 @@ h3
 #footer_text_1
 {
     width: 100%;
-    top: 20px;
-    left: 30px;
     height: 70%;
-    position: absolute;
     line-height: 20px;
+    margin: 10px 0 10px 20px;
 }
 #text_2
 {
-    margin-top: -5px;
     position: relative;
-
 }
 #footer_text_2
 {
-    position: absolute;
     line-height: 20px;
-
-
     width: 100%;
-    left: 30px;
-    top: 200px;
+    margin: 10px 0 10px 20px;
 }
 #footer_text_3
 {
-    position: absolute;
     line-height: 20px;
-
     width: 100%;
-    left: 30px;
-    top: 345px;
+    margin: 10px 0 10px 20px;
 }
