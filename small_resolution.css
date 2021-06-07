@@ -394,7 +394,7 @@ img.photoshébergement
     margin-left: 20px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
-.loisir1
+.activities_block_cards
 {
     flex-direction: column;
 }
@@ -411,7 +411,7 @@ img.photoshébergement
     margin: 0 auto;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
-.picture
+.large_cards
 {
     width: 88%;
     height: 210px;
@@ -436,31 +436,31 @@ img.small_activities_pictures
     margin: 14px 0 10px 15px;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
-.part1
+.small_cards_block
 {
     margin: 23px auto 0 auto;
     width: 88%;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
-.hobbies1
+.small_card_activitie1
 { 
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.hobbies2
+.small_card_activitie2
 {
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.hobbies3
+.small_card_activitie3
 {
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.hobbies4
+.small_card_activitie4
 { 
     width: 100%;
     height: 210px;
@@ -471,7 +471,7 @@ footer
 {
     height: 500px;
 }
-#findepage
+#footer_block
 {
     flex-direction: column;
     width: 100%;
