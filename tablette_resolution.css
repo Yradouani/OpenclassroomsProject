@@ -24,11 +24,7 @@
     width: 100%;
     margin: 0 auto;
 }
-#housingpart1{
-    width: 100%;
-    justify-content: space-around;
-}
-#housingpart2{
+.housing_card{
     width: 100%;
     justify-content: space-around;
 }
@@ -60,24 +56,13 @@
 .stars2{
     padding-top: 3px;
 }
-.hotels1{
+.popular_hotel{
     width: 30%;
     height: 75%;
     position: static;
     flex-direction: column;
 }
-.hotels2{
-    width: 30%;
-    height: 75%;
-    position: static;
-    flex-direction: column;
-}
-.hotels3{
-    width: 30%;
-    height: 75%;
-    position: static;
-    flex-direction: column;
-}
+
 img.photospopulaires{
     width:100%;
     height:120px;

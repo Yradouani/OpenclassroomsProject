@@ -235,27 +235,11 @@ section
     font-size: 20px;
 }
 /* Cartes d'hébergements des logements les plus populaires */
-.hotels1
-{
+.popular_hotel{
     height: 150px;
     border: 4px white solid; 
     width: 87%;
     margin: 5px auto;
-
-}
-.hotels2
-{
-    height: 150px;
-    border: 4px white solid;
-    width: 87%;
-    margin: 5px auto;
-}
-.hotels3
-{
-    height: 150px;
-    border: 4px white solid;
-    width: 87%;
-    margin: 5px auto 25px auto;
 }
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
@@ -283,75 +267,24 @@ section
 {
     margin-top: 30px;
 }
-/* Première partie des hébergements à Marseille */
-#housingpart1
-{
-    flex-direction: column;
-    width: 98%;
-    justify-content: center;
-    margin: 0 auto;
-}
-/* Deuxième partie des hébergements à Marseille */
-#housingpart2
-{
+
+.housing_card{
     flex-direction: column;
     width: 98%;
     justify-content: center;
     margin: 0 auto;
 }
 /* Cartes d'hébergements à Marseille */
-.Hosting_map1
+.Hosting_map
 {
     border: 4px white solid;
     border-radius: 15px;
     width: 94%;
     height: 220px;
     margin: 10px auto; 
-}
-   
-.Hosting_map2
-{
-    border: 4px white solid;
-    border-radius: 15px; 
-    width: 94%;
-    height: 220px;
-    margin: 10px auto; 
-}
-.Hosting_map3
-{
-    border: 4px white solid;
-    border-radius: 15px;
-    width: 94%;
-    height: 220px;
-    margin: 10px auto; 
-}
-.Hosting_map4
-{
-    border: 4px white solid;
-    border-radius: 15px;
-    width: 94%;
-    height: 220px;
-    margin: 10px auto; 
-}
-.Hosting_map5
-{
-    border: 4px white solid;
-    border-radius: 15px;
-    width: 94%;
-    height: 220px;
-    margin: 10px auto; 
-}
-.Hosting_map6
-{
-    border: 4px white solid;
-    border-radius: 15px;
-    width: 94%;
-    height: 220px;
-    margin: 10px auto;  
 }
 
-img.photoshébergement
-{
+img.photoshébergement{
     width:100%;
     height:140px;
 }
@@ -365,7 +298,7 @@ img.photoshébergement
     font-size: 15px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
-.stars1{
+.housing_stars{
     font-size: 13px;
 }
 /* texte afficher plus */

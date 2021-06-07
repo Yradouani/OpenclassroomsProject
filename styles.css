@@ -158,7 +158,7 @@ input:focus{
     margin-left: 25px;
     margin-right: 10px;
 }
-.filtre1:hover{
+.filters:hover{
     color:#0065FC;
 }
 .title_filter{
@@ -171,9 +171,6 @@ input:focus{
 .family_filter2{
     margin-right: 10px;
 }
-.filtre2:hover{
-    color:#0065FC;
-}
 #filters1and2{
     display: flex;
 }
@@ -182,12 +179,6 @@ input:focus{
 }
 .romantic_filter3{
     margin-right: 10px;
-}
-.filtre3:hover{
-    color:#0065FC;
-}
-.filtre4:hover{
-    color:#0065FC;
 }
 .icons{
     color:#0065FC;
@@ -249,68 +240,12 @@ section{
     margin-left: 20px;
     padding-top: 5px;
 }
-/* Première partie des hébergements à Marseille */
-#housingpart1{
-    display: flex;
-    justify-content: space-around;
-}
-/* Deuxième partie des hébergements à Marseille */
-#housingpart2{
+.housing_card{
     display: flex;
     justify-content: space-around;
 }
 /* Cartes d'hébergements à Marseille */
-.Hosting_map1{
-    background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
-    height: 185px;
-    overflow: hidden;
-    margin: 10px; 
-}
-.Hosting_map2{
-    background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
-    height: 185px;
-    overflow: hidden;
-    margin: 10px; 
-}
-.Hosting_map3{
-    background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
-    height: 185px;
-    overflow: hidden;
-    margin: 10px; 
-}
-.Hosting_map4{
-    background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
-    height: 185px;
-    overflow: hidden;
-    margin: 10px; 
-}
-.Hosting_map5{
-    background-color: white;
-    border: 3px white solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
-    height: 185px;
-    overflow: hidden;
-    margin: 10px; 
-}
-.Hosting_map6{
+.Hosting_map{
     background-color: white;
     border: 3px white solid;
     border-radius: 15px;
@@ -334,7 +269,7 @@ img.photoshébergement{
     margin: 4px 0 4px 10px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
-.stars1{
+.housing_stars{
     display: flex;
     margin-left: 10px;
     font-size: 11px;
@@ -379,25 +314,7 @@ img.photoshébergement{
     margin: 0 auto;
 }
 /* Cartes d'hébergements des logements les plus populaires */
-.hotels1{
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    border: 3px white solid;
-    display: flex;
-    height: 29%;
-}
-.hotels2{
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    border: 3px white solid;
-    display: flex;
-    height: 29%;
-}
-.hotels3{
+.popular_hotel{
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
