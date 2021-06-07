@@ -150,7 +150,7 @@ input::placeholder
     border-radius: 30px;
     margin: 0 0;
 }
-#title_filter1
+.title_filter
 {
     font-size: 4.5vw;
 }
@@ -158,10 +158,6 @@ input::placeholder
 {
     border-radius: 30px;
     width: 35vw;
-}
-#title_filter2
-{
-    font-size: 4.5vw;
 }
 #filters1and2
 {
@@ -178,19 +174,11 @@ input::placeholder
     width: 43vw;
     margin: 20px 0 0 0;
 }
-#title_filter3
-{
-    font-size: 4.5vw;
-}
 .pets_filter4
 {
     border-radius: 30px;
     width: 57vw;
     margin: 20px 0;
-}
-#title_filter4
-{
-    font-size: 4.5vw;
 }
 .icons
 {
@@ -373,115 +361,94 @@ img.photoshébergement
     font-size: 16px;
     margin: 6px 0 2px 10px;
 }
-.price
-{
+.price{
     font-size: 15px;
 }
 /* div contenant les étoiles des hébergements à Marseille */
-.stars1
-{
+.stars1{
     font-size: 13px;
 }
 /* texte afficher plus */
-.housing_end_paragraph
-{
+.housing_end_paragraph{
     font-size: 20px;
 }
 
 /* h2 Activités à Marseille */
-#activities_title
-{
+#activities_title{
     margin-left: 20px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
-.activities_block_cards
-{
+.activities_block_cards{
     flex-direction: column;
 }
-#activities_bloc1
-{
+#activities_bloc1{
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
 }
-#activities_bloc2
-{
+#activities_bloc2{
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
-.large_cards
-{
+.large_cards{
     width: 88%;
     height: 210px;
     margin: 0 auto;
 }
-img.big_activities_pictures
-{
+img.big_activities_pictures{
     height: 150px;
 }
-img.small_activities_pictures
-{
+img.small_activities_pictures{
     height: 150px;
 }
 /* noms des activités des grandes photos */
-.activities_name1
-{
+.activities_name1{
     margin: 14px 0 10px 15px;
 }
 /* noms des activités des petites photos */
-.activities_name2
-{
+.activities_name2{
     margin: 14px 0 10px 15px;
 }
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
-.small_cards_block
-{
+.small_cards_block{
     margin: 23px auto 0 auto;
     width: 88%;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
-.small_card_activitie1
-{ 
+.small_card_activitie1{ 
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.small_card_activitie2
-{
+.small_card_activitie2{
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.small_card_activitie3
-{
+.small_card_activitie3{
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto; 
 }
-.small_card_activitie4
-{ 
+.small_card_activitie4{ 
     width: 100%;
     height: 210px;
     margin: 0 auto 25px auto;  
 }
 
-footer
-{
+footer{
     height: 500px;
 }
-#footer_block
-{
+#footer_block{
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
     position: relative;
 }
-h3
-{
+h3{
     font-size: 20px;
-
 }
 #footer_text_1
 {
