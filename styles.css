@@ -37,14 +37,14 @@ header
     width:96%;
     margin: 10px auto;
 }
-.header
+.header_logo_navigation
 {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 20px;
 }
-img#logo1
+img#logo
 {
     width:100px;
     height: 50px;
@@ -62,7 +62,7 @@ nav
     justify-content: space-between;
 }
 /* navigation */
-.housing
+.housing_navigation
 {
     color : #0065FC;
     border-top: 1.5px solid #0065FC;
@@ -75,7 +75,7 @@ nav
     color: #0065FC;
 }
 /* navigation */
-.activities
+.activities_navigation
 {
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ nav
     color: black;
 }
 /* navigation */
-.inscription
+.inscription_navigation
 {
     font-weight: bold;
     color : #0065FC;
@@ -105,7 +105,7 @@ nav
     width: 330px;
 }
 /*icône de recherche*/
-#rechercher
+#contener_search_icon
 {
     background-color: #F2F2F2;
     width: 45px;
@@ -117,7 +117,7 @@ nav
     justify-content: center;   
 }
 /*Champs de recherche*/
-#rechercher1
+#search_field_input
 {
     height: 96%;
     border: none;
@@ -138,7 +138,7 @@ input:focus
     outline:none;
 }
 /* Bouton de recherche*/
-#button
+#button_desktop_version
 {  
     background-color: #0065FC;
     height: 45px;
@@ -150,11 +150,11 @@ input:focus
     position: relative;
     left: 40px;
 }
-#small_button
+#button_mobile_version
 {
     display: none;
 }
-#search_icone
+#search_icone_mobile_version
 {
     text-indent: -9999px;
     position: relative;
@@ -173,7 +173,7 @@ input:focus
     font-size: 13px;
     margin-left: 5px;
 }
-.filtre1
+.economic_filter1
 {
     font-weight: bold;
     border-radius: 30px;
@@ -181,13 +181,12 @@ input:focus
     display: flex;
     margin-left: 25px;
     margin-right: 10px;
- 
 }
 .filtre1:hover
 {
     color:#0065FC;
 }
-#titlefilter1
+#title_filter1
 {
     font-weight: bold;
     font-size: 13px;
@@ -195,7 +194,7 @@ input:focus
     align-items: center;
     margin : 0 12px;
 }
-.filtre2
+.family_filter2
 {
     font-weight: bold;
     border-radius: 20px;
@@ -208,7 +207,7 @@ input:focus
 {
     color:#0065FC;
 }
-#titlefilter2
+#title_filter2
 {
     display: flex;
     align-items: center;
@@ -224,7 +223,7 @@ input:focus
 {
     display: flex;
 }
-.filtre3
+.romantic_filter3
 {
     font-weight: bold;
     border-radius: 20px;
@@ -237,7 +236,7 @@ input:focus
 {
     color:#0065FC;
 }
-#titlefilter3
+#title_filter3
 {
     display: flex;
     align-items: center;
@@ -245,7 +244,7 @@ input:focus
     font-size: 13px;
     margin : 0 12px;
 }
-.filtre4
+.pets_filter4
 {
     font-weight: bold;
     border-radius: 20px;
@@ -257,7 +256,7 @@ input:focus
 {
     color:#0065FC;
 }
-#titlefilter4
+#title_filter4
 {
     font-weight: bold;
     font-size: 13px;
@@ -266,7 +265,7 @@ input:focus
     margin : 0 12px;
     
 }
-.icones
+.icons
 {
     color:#0065FC;
     background-color: #DEEBFF;
@@ -281,14 +280,14 @@ input:focus
 }
 
 /* Div information */
-#info
+#info_block
 {
     display: flex;
     padding-bottom: 15px;
     padding-top: 5px;
 }
 /* icône information */
-#i
+#info_icon
 {
     color:#0065FC;
     width: 25px;
@@ -302,7 +301,7 @@ input:focus
     
 }
 /* paragraphe info */
-#p3
+#info_paragraph
 {
     margin: 6px 0 10px 10px;
 }
@@ -322,13 +321,13 @@ section
 }
 
 /* div contenant les hébergements à Marseille + texte */
-#logements 
+#housing_block
 {
     background-color: #F2F2F2;
     border-radius: 15px;
     height: 95%;
     width: 68%;
-    margin: 0 5px;
+    margin-right: 15px;
 }
 /* h2 Hébergement à Marseille */
 #housing_title
@@ -340,12 +339,13 @@ section
 #housingpart1
 {
     display: flex;
-    margin-top: 10px;
+    justify-content: space-around;
 }
 /* Deuxième partie des hébergements à Marseille */
 #housingpart2
 {
     display: flex;
+    justify-content: space-around;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map1
@@ -438,26 +438,25 @@ img.photoshébergement
     font-size: 11px;
     padding-top: 3px;
 }
-.blue
+.blue_stars
 {
     color:#0065FC;  
 }
-.gris
+.grey_stars
 {
     color :#DEEBFF;
     padding-left: 2px;
 }
 
 /* texte afficher plus */
-.p4
+.housing_end_paragraph
 {
     font-weight: bold;
     margin-left: 30px;
 }
 
-
 /* div contenant les hébergements les plus populaires + texte */
-#populaires
+#popular_block
 {
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -660,7 +659,6 @@ footer
 }
 #findepage
 {
-    
     display: flex;
     width: 75%;
     justify-content: space-between;

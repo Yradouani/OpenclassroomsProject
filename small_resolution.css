@@ -22,14 +22,14 @@ header
 {
     width: 100%;
 }
-.header
+.header_logo_navigation
 {
     width: 100%;
     margin-bottom: 1%;
     flex-direction: column;
   
 }
-img#logo1
+img#logo
 {
     display: flex;
     width:25%;
@@ -48,7 +48,7 @@ nav
     
 }
 /* navigation */
-.housing
+.housing_navigation
 {
     margin: 20px 0 10px 0;
     border-bottom: 3px solid #0065FC;
@@ -58,7 +58,7 @@ nav
     text-align: center;
 }
 /* navigation */
-.activities
+.activities_navigation
 {
     border-bottom: 3px solid #F2F2F2;
     text-align: center;
@@ -68,14 +68,14 @@ nav
     display: inline;
 }
 /* navigation */
-.inscription
+.inscription_navigation
 {
     order: -1;
     justify-content: flex-end;
     margin-right: 20px;
     width: auto;    
 }
-#introduction
+#introduction_paragraph
 {
     margin : 10px 20px;
 }
@@ -87,18 +87,18 @@ nav
     position: relative;
 }
 /*icône de recherche*/
-#rechercher
+#contener_search_icon
 { 
     width: 55px;
     height: 55px; 
     font-size: 20px;
 }
-#search
+#search_field
 {
     width: 100%;
 }
 /*Champs de recherche*/
-#rechercher1
+#search_field_input
 {
     width: 100%;
 }
@@ -107,11 +107,11 @@ input::placeholder
     font-size: 4.5vw;  
 }
 /* Bouton de recherche*/
-#button
+#button_desktop_version
 {  
     display: none;
 }
-#small_button
+#button_mobile_version
 {
     background-color: #0065FC;
     height: 55px;
@@ -125,12 +125,12 @@ input::placeholder
     position: absolute;
     right: 0;   
 }
-#search_icone
+#search_icone_mobile_version
 {
     text-indent: 0px;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    left: 10px;
+    left: 13px;
     top: 18px;
 }
 /* Div contenant les filtres */
@@ -145,21 +145,21 @@ input::placeholder
     margin-left: 15px;
     font-size: 4.5vw;
 }
-.filtre1
+.economic_filter1
 {
     border-radius: 30px;
     margin: 0 0;
 }
-#titlefilter1
+#title_filter1
 {
     font-size: 4.5vw;
 }
-.filtre2
+.family_filter2
 {
     border-radius: 30px;
     width: 35vw;
 }
-#titlefilter2
+#title_filter2
 {
     font-size: 4.5vw;
 }
@@ -172,27 +172,27 @@ input::placeholder
     flex-direction: column;
     margin-left: 13px;
 }
-.filtre3
+.romantic_filter3
 {
     border-radius: 30px;
     width: 43vw;
     margin: 20px 0 0 0;
 }
-#titlefilter3
+#title_filter3
 {
     font-size: 4.5vw;
 }
-.filtre4
+.pets_filter4
 {
     border-radius: 30px;
     width: 57vw;
     margin: 20px 0;
 }
-#titlefilter4
+#title_filter4
 {
     font-size: 4.5vw;
 }
-.icones
+.icons
 {
     font-size: 15px;
     width: 11vw;
@@ -200,12 +200,12 @@ input::placeholder
     margin-left: -2px;
 }
 /* Div information */
-#info
+#info_block
 {
     margin: 0 10px;
 }
 /* icône information */
-#i
+#info_icon
 {
     width: 25px;
     border-radius: 70px;
@@ -215,7 +215,7 @@ input::placeholder
     margin-top: 5px;
 }
 /* paragraphe info */
-#p3
+#info_paragraph
 {
     margin: 6px 0 10px 10px;
     font-size: 17px; 
@@ -226,7 +226,7 @@ section
     width: 100%;
 }
 /* div contenant les hébergements les plus populaires + texte */
-#populaires
+#popular_block
 {
     border-radius: 0px;
     width: 100%;  
@@ -282,7 +282,7 @@ section
     flex-direction:column-reverse;
 }
 /* div contenant les hébergements à Marseille + texte */
-#logements 
+#housing_block
 {
     background-color: white;
     display: flex;
@@ -383,7 +383,7 @@ img.photoshébergement
     font-size: 13px;
 }
 /* texte afficher plus */
-.p4
+.housing_end_paragraph
 {
     font-size: 20px;
 }
@@ -413,7 +413,7 @@ img.photoshébergement
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .picture
 {
-    width: 90%;
+    width: 88%;
     height: 210px;
     margin: 0 auto;
 }
@@ -439,7 +439,7 @@ img.small_activities_pictures
 .part1
 {
     margin: 23px auto 0 auto;
-    width: 90%;
+    width: 88%;
 }
 /* div contenant les photos petit format + le texte des activités à Marseille */
 .hobbies1
