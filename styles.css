@@ -99,8 +99,10 @@ nav{
     justify-content: center;   
 }
 /*Champs de recherche*/
+#search_field{
+    display: flex;
+}
 #search_field_input{
-    height: 96%;
     border: none;
     margin-left: 15px;
    
@@ -231,9 +233,8 @@ section{
 #housing_block{
     background-color: #F2F2F2;
     border-radius: 15px;
-    height: 95%;
     width: 68%;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 /* h2 Hébergement à Marseille */
 #housing_title{
@@ -243,6 +244,7 @@ section{
 .housing_card{
     display: flex;
     justify-content: space-around;
+    margin: 0 15px;
 }
 /* Cartes d'hébergements à Marseille */
 .Hosting_map{
@@ -250,7 +252,7 @@ section{
     border: 3px white solid;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    width: 250px;
+    width: 30%;
     height: 185px;
     overflow: hidden;
     margin: 10px; 
@@ -286,7 +288,7 @@ img.photoshébergement{
 /* texte afficher plus */
 .housing_end_paragraph{
     font-weight: bold;
-    margin-left: 30px;
+    margin: 20px 0 30px 30px;
 }
 
 /* div contenant les hébergements les plus populaires + texte */
@@ -299,15 +301,15 @@ img.photoshébergement{
 #popular_header{
     display: flex;
     justify-content: space-between;
-    margin: 5px 30px;
+    margin: 7px 30px 5px 20px;
 }
 #popular_icone{
     margin-top: 15px;
     font-size: 18px;
 }
 #most_popular{
-    width: 94%;
-    height: 88%;
+    width: 85%;
+    height: 86%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -321,10 +323,14 @@ img.photoshébergement{
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     border: 3px white solid;
     display: flex;
-    height: 29%;
+    height: 25%;
+}
+.popular_hotel a{
+    width: 47%;
+    height: 100%;
 }
 img.photospopulaires{
-    width:145px;
+    width:140px;
     height:100%;
 }
 .textehotel{
@@ -342,8 +348,8 @@ img.photospopulaires{
 
 /* div Activités */
 #activities_section{
-    width: 100%;
-    padding-top: 30px;
+    width: 96%;
+    margin: 40px auto;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
 .activities_block_cards{
@@ -351,15 +357,14 @@ img.photospopulaires{
     margin: 0 auto;
     width: 100%;  
 }
-#activities_bloc1{
+.activities_block{
     display: flex;
     width: 50%;
-    margin-right: 15px;
+    margin-right: 30px;
+    height: 100%;
 }
-#activities_bloc2{
-    display: flex;
-    width: 50%;
-    margin-left: 15px;
+.activities_block2{
+    margin-right: 0;
 }
 /* div contenant les photos grand format + le texte des activités à Marseille */
 .large_cards{
@@ -367,8 +372,30 @@ img.photospopulaires{
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 405px;
+    height: 100%;
     width: 48%;
+}
+/* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
+.small_cards_block{
+    margin-left: 30px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* div contenant les photos petit format + le texte des activités à Marseille */
+.small_cards{
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
+    height: 47%;
+}
+.small_card_activitie1{
+    height: 52%;
+}
+.small_card_activitie2{
+    height: 42%;   
 }
 img.big_activities_pictures{
     width: 100%; 
@@ -377,6 +404,12 @@ img.big_activities_pictures{
 img.small_activities_pictures{
     width: 100%; 
     height: 135px;
+}
+img.Fort_de_Pomegue{
+    height: 155px;
+}
+img.Iles_du_Frioul{
+    height: 120px;
 }
 /* noms des activités des grandes photos */
 .activities_name1{
@@ -392,44 +425,6 @@ img.small_activities_pictures{
     display: flex;
     align-items: center;
 }
-/* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
-.small_cards_block{
-    margin-left: 30px;
-    width: 48%;
-}
-/* div contenant les photos petit format + le texte des activités à Marseille */
-.small_card_activitie1{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 190px;
-    margin-bottom: 25px;    
-}
-.small_card_activitie2{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 190px;
-    margin-bottom: 25px;    
-}
-.small_card_activitie3{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 190px;
-    margin-bottom: 25px;    
-}
-.small_card_activitie4{
-    border: 1px #F2F2F2 solid;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 2px 2px 10px rgb(209, 209, 209);  
-    height: 190px;
-    margin-bottom: 25px;   
-}
 
 footer{
     background-color: #F2F2F2;
@@ -439,10 +434,9 @@ footer{
     display: flex;
     width: 75%;
     justify-content: space-between;
-    margin: 10px 20px 0 10px;
+    margin: 10px 20px 0 30px;
 }
-#footer_text_1{
-    height: 70%;
+.footer_text{
     line-height: 20px;
 }
 #text_2{
@@ -451,15 +445,10 @@ footer{
 #text_3{
     margin-top: -5px;
 }
-#footer_text_2{
-    line-height: 20px;
-}
+
 #text_5{
     margin-top: -5px;
 }
 #footer_text_3{
     line-height: 20px;
-}
-#text_7{
-    margin-top: -5px;
 }
