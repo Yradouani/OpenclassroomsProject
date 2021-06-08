@@ -29,51 +29,50 @@ header
     flex-direction: column;
   
 }
-img#logo
-{
-    display: flex;
-    width:25%;
-    padding-left: 20px;
-}
+
 /* Menu de navigation */
 nav
 { 
     width: 100%;
-    flex-direction: column;
-    margin-top: -55px;
+    flex-wrap: wrap;
 }
-#navigation
-{
-    width: 100%;
-    
+#logo_container{
+    width: auto;
+    display: flex;
 }
-/* navigation */
+img#logo{
+    display: flex;
+    padding-left: 20px;
+}
 .housing_navigation
 {
-    margin: 20px 0 10px 0;
-    border-bottom: 3px solid #0065FC;
-    border-top: none;
-    width: 50%;
+    border-bottom: 3px solid #F2F2F2;
+    width: 43%;
     padding-bottom: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    order: 3;
 }
-/* navigation */
 .activities_navigation
 {
     border-bottom: 3px solid #F2F2F2;
-    text-align: center;
-    width: 50%;
-    margin: 20px 0 10px 0;
-    padding-top: 30px;
+    width: 43%;
     display: inline;
+    display: flex;
+    justify-content: center;
+    order: 4;
 }
-/* navigation */
 .inscription_navigation
 {
-    order: -1;
     justify-content: flex-end;
     margin-right: 20px;
-    width: auto;    
+    width: 50%; 
+    display: flex;   
+}
+.ancre:hover{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 15px;
 }
 #introduction_paragraph
 {
@@ -102,36 +101,27 @@ nav
 {
     width: 100%;
 }
-input::placeholder
-{
+input::placeholder{
     font-size: 4.5vw;  
 }
 /* Bouton de recherche*/
-#button_desktop_version
-{  
+#button_desktop_version{  
     display: none;
 }
-#button_mobile_version
-{
+#button_mobile_version{
     background-color: #0065FC;
     height: 55px;
     width: 55px;
     border : none;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
     display: flex;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    position: absolute;
-    right: 0;   
+    justify-content: center;
+    align-items: center;
 }
-#search_icone_mobile_version
-{
-    text-indent: 0px;
+#search_icone_mobile_version{
     color: rgb(255, 255, 255);
     font-size: 20px;
-    left: 13px;
-    top: 18px;
+    display: flex;
 }
 /* Div contenant les filtres */
 #filter_block
@@ -243,6 +233,9 @@ section
     border: 4px white solid; 
     width: 87%;
     margin: 5px auto;
+}
+.popular_hotel a{
+
 }
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
@@ -381,11 +374,11 @@ footer{
 h3{
     font-size: 20px;
 }
-.footer_text{
+.footer_text_block{
     width: 100%;
     line-height: 20px;
     margin: 10px 0 10px 20px;
 }
-#text_2{
+.text_2{
     position: relative;
 }

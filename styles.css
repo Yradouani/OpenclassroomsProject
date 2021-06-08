@@ -7,19 +7,23 @@ body{
 p{
     font-size: 13px;
     font-weight: 500;
+    cursor: default;
 }
 h1{
     font-size: 18px;
     font-weight: bold;
+    cursor: default;
 }
 h2{
     font-size: 18px;
     margin-left: 10px;
     font-weight: bold;
+    cursor: default;
 }
 h3{
     font-size: 16px;
     font-weight: bold;
+    cursor: default;
 }
 #main_wrapper{
     width: 100%;
@@ -30,56 +34,44 @@ header{
     width:96%;
     margin: 10px auto;
 }
-.header_logo_navigation{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 20px;
-}
 img#logo{
     width:100px;
     height: 50px;
 }
+#logo_container{
+    width: 60%;
+}
 /* Menu de navigation */
 nav{
-    display : flex;
     justify-content: space-between;
-}
-#navigation{
+    margin: 20px auto;
     display: flex;
-    width: 68%;
-    justify-content: space-between;
 }
 /* navigation */
 .housing_navigation{
-    color : #0065FC;
-    border-top: 1.5px solid #0065FC;
     padding: 30px 15px 0 15px;
     margin-top: -13px;
 }
-#ancre{
-    text-decoration: none;
-    color: #0065FC;
-}
 /* navigation */
 .activities_navigation{
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-}
-#ancre2{
-    text-decoration: none;
-    color: black;
+    padding: 30px 15px 0 15px;
+    margin-top: -13px;
 }
 /* navigation */
 .inscription_navigation{
     font-weight: bold;
-    color : #0065FC;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
+    padding: 30px 15px 0 15px;
+    margin-top: -13px;
 }
-
+.ancre{
+    text-decoration: none;
+    color: #000000;
+}
+.ancre:hover{
+    color: #0065FC;
+    border-top: 1.5px solid #0065FC;
+    padding: 30px 17px 0 15px;
+}
 /*div de la section de recherche*/
 #contener_search{
     display: flex;
@@ -129,14 +121,13 @@ input:focus{
     color: white;
     position: relative;
     left: 40px;
+    cursor: pointer;
 }
 #button_mobile_version{
     display: none;
 }
 #search_icone_mobile_version{
-    text-indent: -9999px;
-    position: relative;
-    right: 20px;
+    display: none;
 }
 
 /* Div contenant les filtres */
@@ -155,6 +146,7 @@ input:focus{
     border: 2px #F2F2F2 solid;
     display: flex;
     margin-left: 15px;
+    cursor: pointer;
 }
 .economic_filter1{
     margin-left: 25px;
@@ -436,19 +428,20 @@ footer{
     justify-content: space-between;
     margin: 10px 20px 0 30px;
 }
-.footer_text{
+.footer_text_block{
     line-height: 20px;
 }
-#text_2{
+.footer_text{
+    cursor: pointer;
+}
+.text_2{
     margin-top: -5px;
 }
-#text_3{
+.text_3{
     margin-top: -5px;
 }
 
-#text_5{
+.text_5{
     margin-top: -5px;
 }
-#footer_text_3{
-    line-height: 20px;
-}
+
