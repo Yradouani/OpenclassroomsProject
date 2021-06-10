@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <title img src="Reservia@3x.png">Reservia</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="small_resolution.css" />
-    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1024px)" href="tablette_resolution.css" />
+    <link rel="stylesheet" media="screen and (max-width: 697px)" href="small_resolution.css" />
+    <link rel="stylesheet" media="screen and (min-width: 698px) and (max-width: 1024px)" href="tablette_resolution.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="Documents/Premierprojet/fontawesome-free-5.15.3-web.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -36,7 +36,7 @@
                     <i class="fas fa-map-marker-alt"></i>
                 </span>
                 <div id="search_field">
-                    <input type="text" name="search" id="search_field_input" placeholder="Marseille, France" />
+                    <input type="text" name="search" id="search_field_input" placeholder="Marseille, France" maxlength="20"/>
                 </div>
                 <span id="btn">
                     <input type="submit" id="button_desktop_version" value="Rechercher"/>
@@ -94,8 +94,9 @@
                     <h2 id = "housing_title">Hébergements à Marseille</h2>
                     <div class="housing_card">
 
-                        <div class="Hosting_map"><a href="">
-                            <img src="Pictures/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="photoshébergement" alt="Auberge la Cannebière"/>
+                        
+                        <div class="Hosting_map">
+                            <a href=""><img src="Pictures/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="photoshébergement" alt="Auberge la Cannebière"/></a>
                             <p class="name">Auberge la Cannebière</p>
                             <p class="price">Nuit à partir de 25€</p>
                             <div class="housing_stars">
@@ -109,8 +110,9 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                            </a>
+                            
                         </div>
+                        
 
                         <div class="Hosting_map">
                             <a href=""><img src="Pictures/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="photoshébergement" alt="hôtel du port"/></a>

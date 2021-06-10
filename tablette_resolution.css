@@ -75,11 +75,12 @@ img.photospopulaires{
 }
 
 #activities_section{
-    top: 1220px;
+    width: 100%;
 }
 .small_cards_block{
     width: 68%;
     flex-direction: row;
+    margin-left: 15px;
 }
 .activities_block_cards{
     flex-direction: column;
@@ -95,7 +96,7 @@ img.photospopulaires{
 .small_card_activitie2{
     width: 50%;
     height: 175px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .small_card_activitie3{
     width: 50%;
@@ -104,7 +105,7 @@ img.photospopulaires{
 .small_card_activitie4{
     width: 50%;
     height: 175px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .activities_block{
     width: 100%;

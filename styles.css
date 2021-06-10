@@ -40,7 +40,7 @@ img#logo{
     height: 50px;
 }
 #logo_container{
-    width: 60%;
+    width: 65%;
 }
 /* Menu de navigation */
 nav{
@@ -52,11 +52,13 @@ nav{
     padding: 30px 15px 0 15px;
     margin-top: -13px;
     display: block;
+    font-size: 13px;
 }
 .inscription_navigation{
     font-weight: bold;
     padding: 30px 15px 0 15px;
     margin-top: -13px;
+    font-size: 13px;
 }
 .ancre{
     text-decoration: none;
@@ -70,11 +72,11 @@ nav{
     padding: 30px 15px 0 15px;
     display: block;
 }
-/*div de la section de recherche*/
+
 #contener_search{
     display: flex;
     border-radius: 28px;
-    border: 1px #F2F2F2 solid;
+    border: 1.3px #F2F2F2 solid;
     width: 330px;
 }
 /*icône de recherche*/
@@ -91,6 +93,8 @@ nav{
 /*Champs de recherche*/
 #search_field{
     display: flex;
+    height: 98%;
+    margin: auto;
 }
 #search_field_input{
     border: none;
@@ -104,9 +108,14 @@ input::placeholder{
     font-family: 'Raleway';
     font-size: 15px;
 }
-/*enlève la bordure lors du clic sur le bouton de recherche*/
 input:focus{
     outline:none;
+}
+input[type="text"]
+{
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 /* Bouton de recherche*/
 #button_desktop_version{  
@@ -159,6 +168,7 @@ input:focus{
     display: flex;
     align-items: center;
     margin : 0 12px;
+    cursor: pointer;
 }
 .family_filter2{
     margin-right: 10px;
@@ -182,6 +192,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    margin-left: -3px;
 }
 
 /* Div information */
@@ -245,6 +256,10 @@ section{
     height: 185px;
     overflow: hidden;
     margin: 10px; 
+    cursor: pointer;
+}
+.Hosting_map:hover{
+    border: 3px #F2F2F2 solid;
 }
 img.photoshébergement{
     width:100%;
@@ -314,6 +329,9 @@ img.photoshébergement{
     display: flex;
     height: 25%;
 }
+.popular_hotel:hover{
+    border: 3px #F2F2F2 solid;
+}
 .popular_hotel a{
     height: 100%;
 }
@@ -332,6 +350,7 @@ img.photospopulaires{
     display: flex;
     padding-left: 10px;
     font-size: 11px;
+    margin-bottom: 3px;
 }
 
 /* div Activités */
@@ -363,6 +382,9 @@ img.photospopulaires{
     height: 100%;
     width: 48%;
 }
+.large_cards:hover{
+    border: 1px #d3d1d1 solid;
+}
 /* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .small_cards_block{
     margin-left: 30px;
@@ -378,6 +400,9 @@ img.photospopulaires{
     overflow: hidden;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     height: 47%;
+}
+.small_cards:hover{
+    border: 1px #d3d1d1 solid;
 }
 .small_card_activitie1{
     height: 52%;
@@ -405,13 +430,15 @@ img.Iles_du_Frioul{
     margin-left: 15px;
     display: flex;
     align-items: center;
+    margin-right: 15px;
 }
 /* noms des activités des petites photos */
 .activities_name2{
     font-weight: bold;
-    margin-left: 17px;
+    margin-left: 15px;
     display: flex;
     align-items: center;
+    margin-right: 15px;
 }
 
 footer{
