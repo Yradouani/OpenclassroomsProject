@@ -44,35 +44,36 @@ img#logo{
     display: flex;
     padding-left: 20px;
 }
-.housing_navigation
-{
+.navigation{
     border-bottom: 3px solid #F2F2F2;
-    width: 43%;
-    padding-bottom: 15px;
+    width: 50%;
     display: flex;
     justify-content: center;
+    padding: 0 0 15px 0;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+}
+.housing_navigation{
     order: 3;
 }
-.activities_navigation
-{
-    border-bottom: 3px solid #F2F2F2;
-    width: 43%;
-    display: inline;
-    display: flex;
-    justify-content: center;
+.activities_navigation{
     order: 4;
 }
-.inscription_navigation
-{
+.inscription_navigation{
     justify-content: flex-end;
     margin-right: 20px;
     width: 50%; 
     display: flex;   
 }
+.navigation:hover{
+    border-bottom: 3px solid #0065FC;
+    padding: 0 0 15px 0;
+    display: block;
+}
 .ancre:hover{
     border-top: none;
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 15px;
+    padding: 0;
 }
 #introduction_paragraph
 {
@@ -102,7 +103,13 @@ img#logo{
     width: 100%;
 }
 input::placeholder{
-    font-size: 4.5vw;  
+    font-size: 20px;  
+}
+input[type="text"]
+{
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 /* Bouton de recherche*/
 #button_desktop_version{  
@@ -117,6 +124,7 @@ input::placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 #search_icone_mobile_version{
     color: rgb(255, 255, 255);
@@ -137,54 +145,40 @@ input::placeholder{
 }
 .economic_filter1
 {
-    border-radius: 30px;
     margin: 0 0;
 }
-.title_filter
-{
-    font-size: 4.5vw;
+.family_filter2{
+    width: 125px;
 }
-.family_filter2
-{
-    border-radius: 30px;
-    width: 35vw;
+.title_filter{
+    font-size: 16px;
 }
-#filters1and2
-{
+#filters1and2{
     margin-left: 13px;
 }
-#filters3and4
-{
+#filters3and4{
     flex-direction: column;
     margin-left: 13px;
 }
-.romantic_filter3
-{
-    border-radius: 30px;
-    width: 43vw;
+.romantic_filter3{
     margin: 20px 0 0 0;
+    width: 160px;
 }
-.pets_filter4
-{
-    border-radius: 30px;
-    width: 57vw;
+.pets_filter4{
     margin: 20px 0;
+    width: 210px;
 }
-.icons
-{
+.icons{
     font-size: 15px;
-    width: 11vw;
-    height: 11vw;
-    margin-left: -2px;
+    width: 40px;
+    height: 40px;
 }
 /* Div information */
-#info_block
-{
+#info_block{
     margin: 0 10px;
 }
 /* icône information */
-#info_icon
-{
+#info_icon{
     width: 25px;
     border-radius: 70px;
     height: 20px;
@@ -193,34 +187,24 @@ input::placeholder{
     margin-top: 5px;
 }
 /* paragraphe info */
-#info_paragraph
-{
+#info_paragraph{
     margin: 6px 0 10px 10px;
     font-size: 17px; 
 }
 
-section
-{
+section{
     width: 100%;
 }
 /* div contenant les hébergements les plus populaires + texte */
-#popular_block
-{
+#popular_block{
     border-radius: 0px;
     width: 100%;  
 }
     
-/*contener du h2 + icône populaires*/
-#popular_header
-{
-
-}
-#popular_title
-{
+#popular_title{
     margin: 15px 17px 10px 0;
 }
-#popular_icone
-{
+#popular_icone{
     margin: 17px 0 10px 20px;
     font-size: 20px;
 }

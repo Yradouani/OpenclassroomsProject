@@ -8,6 +8,7 @@ p{
     font-size: 13px;
     font-weight: 500;
     cursor: default;
+    text-decoration: none;
 }
 h1{
     font-size: 18px;
@@ -47,17 +48,11 @@ nav{
     margin: 20px auto;
     display: flex;
 }
-/* navigation */
-.housing_navigation{
+.navigation{
     padding: 30px 15px 0 15px;
     margin-top: -13px;
+    display: block;
 }
-/* navigation */
-.activities_navigation{
-    padding: 30px 15px 0 15px;
-    margin-top: -13px;
-}
-/* navigation */
 .inscription_navigation{
     font-weight: bold;
     padding: 30px 15px 0 15px;
@@ -69,8 +64,11 @@ nav{
 }
 .ancre:hover{
     color: #0065FC;
+}
+.navigation:hover{
     border-top: 1.5px solid #0065FC;
-    padding: 30px 17px 0 15px;
+    padding: 30px 15px 0 15px;
+    display: block;
 }
 /*div de la section de recherche*/
 #contener_search{
@@ -179,12 +177,11 @@ input:focus{
     background-color: #DEEBFF;
     width: 40px;
     height: 40px;
-    border-radius: 80px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    margin-left: -2px;
 }
 
 /* Div information */
@@ -318,7 +315,6 @@ img.photoshébergement{
     height: 25%;
 }
 .popular_hotel a{
-    width: 47%;
     height: 100%;
 }
 img.photospopulaires{
