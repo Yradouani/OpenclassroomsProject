@@ -85,9 +85,12 @@ img.photospopulaires{
 .textehotel{
     margin-left: -15px;
 }
-
 #activities_section{
     width: 96%;
+    margin: 10px auto;
+}
+#activities_block{
+    width: 100%;
 }
 .small_cards_block{
     width: 68%;
@@ -119,7 +122,7 @@ img.photospopulaires{
     height: 175px;
     margin-left: 15px;
 }
-.activities_block{
+.activities_container{
     width: 100%;
     margin: 10px auto;
     justify-content: space-between;

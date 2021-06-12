@@ -17,10 +17,13 @@ h2
     max-width: 697px;
     font-size: 15px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 header
 {
     width: 100%;
+    order: 1;
 }
 .header_logo_navigation
 {
@@ -191,13 +194,28 @@ input[type="text"]{
 section{
     width: 100%;
 }
-/* div contenant les hébergements les plus populaires + texte */
+#housing_section{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+    order: 3;
+}
+#popular_section{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+    order: 2;
+}
 #popular_block{
     border-radius: 0px;
     width: 100%;  
     height: auto;
 }
-    
+#popular_header{
+    margin: 7px 25px;
+}
 #popular_title{
     margin: 15px 17px 10px 0;
 }
@@ -207,6 +225,7 @@ section{
 }
 #most_popular{
     margin: 0 auto 20px auto;
+    width: 98%;
 }
 /* Cartes d'hébergements des logements les plus populaires */
 .popular_hotel{
@@ -215,27 +234,12 @@ section{
     width: 87%;
     margin: 5px auto;
 }
-.popular_hotel a{
 
-}
 /* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
     font-size: 13px;
     padding-bottom: 3px;
-}
-
-#housing_section{
-    width: 96%;
-    margin: 0 auto;
-    float: none;
-    height: auto;
-}
-#popular_section{
-    width: 96%;
-    margin: 0 auto;
-    float: none;
-    height: auto;
 }
 /* div contenant les hébergements à Marseille + texte */
 #housing_block
@@ -250,7 +254,7 @@ section{
 /* h2 Hébergement à Marseille */
 #housing_title
 {
-    margin-top: 30px;
+    margin: 35px 0 15px 15px;
 }
 
 .housing_card{
@@ -265,13 +269,13 @@ section{
     border: 4px white solid;
     border-radius: 15px;
     width: 94%;
-    height: 220px;
+    height: 240px;
     margin: 10px auto; 
 }
 
 img.photoshébergement{
     width:100%;
-    height:140px;
+    height:160px;
 }
 /* Noms des hôtels */
 .name
@@ -291,7 +295,9 @@ img.photoshébergement{
     font-size: 20px;
 }
 
-/* h2 Activités à Marseille */
+#activities_section{
+    order: 4;
+}
 #activities_title{
     margin-left: 20px;
 }
@@ -299,60 +305,50 @@ img.photoshébergement{
 .activities_block_cards{
     flex-direction: column;
 }
-.activities_block{
+.activities_container{
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
 }
-/* div contenant les photos grand format + le texte des activités à Marseille */
 .large_cards{
-    width: 88%;
-    height: 210px;
+    width: 94%;
+    height: 240px;
     margin: 0 auto;
 }
 img.big_activities_pictures{
-    height: 150px;
+    height: 170px;
 }
 img.small_activities_pictures{
-    height: 150px;
+    height: 170px;
 }
-/* noms des activités des grandes photos */
-.activities_name1{
-    margin: 14px 0 10px 15px;
-}
-/* noms des activités des petites photos */
-.activities_name2{
-    margin: 14px 0 10px 15px;
-}
-/* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .small_cards_block{
     margin: 23px auto 0 auto;
-    width: 88%;
+    width: 96%;
 }
-/* div contenant les photos petit format + le texte des activités à Marseille */
 .small_card_activitie1{ 
     width: 100%;
-    height: 210px;
+    height: 240px;
     margin: 0 auto 25px auto; 
 }
 .small_card_activitie2{
     width: 100%;
-    height: 210px;
+    height: 240px;
     margin: 0 auto 25px auto; 
 }
 .small_card_activitie3{
     width: 100%;
-    height: 210px;
+    height: 240px;
     margin: 0 auto 25px auto; 
 }
 .small_card_activitie4{ 
     width: 100%;
-    height: 210px;
+    height: 240px;
     margin: 0 auto 25px auto;  
 }
 
 footer{
     height: 500px;
+    order: 5;
 }
 #footer_block{
     flex-direction: column;
