@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -161,6 +163,7 @@ input[type="text"]
 }
 .filters:hover{
     color:#0065FC;
+    border: 2px #eaf2ff solid;
 }
 .title_filter{
     font-weight: bold;
@@ -198,7 +201,6 @@ input[type="text"]
 /* Div information */
 #info_block{
     display: flex;
-    padding-bottom: 15px;
     padding-top: 5px;
 }
 /* icône information */
@@ -218,23 +220,35 @@ input[type="text"]
     margin: 6px 0 10px 10px;
 }
 
-/* Hébergements à Marseille + Les plus populaires */
-section{
-    width: 96%;
-    margin: 0 auto;
+#housing_section{
+    width: 60%;
+    float: left;
+    height: 620px;
+    margin-left: 20px;
 }
-.firstsection{
+#popular_section{
+    width: 35%;
+    float: right;
+    height: 620px;
     display: flex;
-    width: 100%;
+    margin-right: 20px;
+}
+#firstsection{
+    display: flex;
     position: relative;
+    height: 560px;
 }
 
 /* div contenant les hébergements à Marseille + texte */
 #housing_block{
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 68%;
     margin-right: 25px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 560px;
+    flex-direction: column;
 }
 /* h2 Hébergement à Marseille */
 #housing_title{
@@ -253,7 +267,7 @@ section{
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(209, 209, 209);  
     width: 30%;
-    height: 185px;
+    height: 190px;
     overflow: hidden;
     margin: 10px; 
     cursor: pointer;
@@ -299,7 +313,8 @@ img.photoshébergement{
 #popular_block{
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 36%;  
+    height: 560px;
+    width: 100%;
 }
 /*contener du h2 + icône populaires*/
 #popular_header{
@@ -356,7 +371,8 @@ img.photospopulaires{
 /* div Activités */
 #activities_section{
     width: 96%;
-    margin: 40px auto;
+    margin: 25px auto;
+    padding-top: 15px;
 }
 /* div contenant toutes les photos + texte des activités à Marseille */
 .activities_block_cards{
