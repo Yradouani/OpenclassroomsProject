@@ -1,5 +1,4 @@
 
-
 body{
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -53,8 +52,8 @@ nav{
     display: flex;
 }
 .navigation{
-    padding: 30px 15px 0 15px;
-    margin-top: -13px;
+    padding: 35px 15px 0 15px;
+    margin-top: -18px;
     display: block;
     font-size: 13px;
 }
@@ -71,7 +70,15 @@ nav{
 .ancre:hover{
     color: #0065FC;
 }
+.ancre:active{
+    color: #0065FC;
+}
 .navigation:hover{
+    border-top: 1.5px solid #0065FC;
+    padding: 30px 15px 0 15px;
+    display: block;
+}
+.navigation:active{
     border-top: 1.5px solid #0065FC;
     padding: 30px 15px 0 15px;
     display: block;
@@ -81,13 +88,12 @@ nav{
     display: flex;
     border-radius: 28px;
     border: 1.3px #F2F2F2 solid;
-    width: 330px;
+    width: 350px;
 }
 /*icône de recherche*/
 #contener_search_icon{
     background-color: #F2F2F2;
-    width: 45px;
-    height: 45px;
+    width: 50px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     display: flex;
@@ -270,6 +276,11 @@ input[type="text"]
     margin: 10px 7px; 
     cursor: pointer;
 }
+.ancre_cards{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 .Hosting_map:hover{
     border: 3px #F2F2F2 solid;
 }
@@ -304,7 +315,7 @@ img.photoshébergement{
 /* texte afficher plus */
 .housing_end_paragraph{
     font-weight: bold;
-    margin: 20px 0 30px 30px;
+    margin: auto 0 auto 30px;
 }
 
 /* div contenant les hébergements les plus populaires + texte */
@@ -341,12 +352,18 @@ img.photoshébergement{
     border: 3px white solid;
     display: flex;
     height: 25%;
+    cursor: pointer;
 }
 .popular_hotel:hover{
     border: 3px #F2F2F2 solid;
 }
 .popular_hotel a{
     height: 100%;
+}
+.ancre_popular_cards{
+    text-decoration: none;
+    color: black;
+    display: flex;
 }
 img.photospopulaires{
     width:120px;

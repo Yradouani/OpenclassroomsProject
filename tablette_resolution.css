@@ -76,11 +76,14 @@
 }
 .popular_hotel a{
     width: 100%;
-    height: 62%;
+}
+.ancre_popular_cards{
+    flex-direction: column;
+    height: 100%;
 }
 img.photospopulaires{
     width:100%;
-    height:100%;
+    height:130px;
 }
 .textehotel{
     margin-left: -15px;
@@ -133,3 +136,10 @@ img.small_activities_pictures{
 img.big_activities_pictures{
     height: 130px;
 }
+.activities_name1{
+    font-size: 12px;
+}
+.activities_name2{
+    font-size: 12px;
+}
+
