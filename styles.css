@@ -8,7 +8,6 @@ body{
 p{
     font-size: 13px;
     font-weight: 500;
-    cursor: default;
     text-decoration: none;
 }
 h1{
@@ -52,7 +51,7 @@ nav{
     display: flex;
 }
 .navigation{
-    padding: 35px 15px 0 15px;
+    padding: 36.5px 15px 0 15px;
     margin-top: -18px;
     display: block;
     font-size: 13px;
@@ -63,20 +62,21 @@ nav{
     margin-top: -13px;
     font-size: 13px;
 }
+.inscription_navigation:hover{
+    color: #0065FC;
+}
 .ancre{
     text-decoration: none;
-    color: #000000;
-}
-.ancre:hover{
-    color: #0065FC;
+    color: inherit;
 }
 .ancre:active{
     color: #0065FC;
 }
 .navigation:hover{
     border-top: 1.5px solid #0065FC;
-    padding: 30px 15px 0 15px;
+    padding: 35px 15px 0 15px;
     display: block;
+    color: #0065FC;
 }
 .navigation:active{
     border-top: 1.5px solid #0065FC;
@@ -287,6 +287,7 @@ input[type="text"]
 img.photoshébergement{
     width:100%;
     height:105px;
+    object-fit: cover;
 }
 /* Noms des hôtels */
 .name{
@@ -368,6 +369,7 @@ img.photoshébergement{
 img.photospopulaires{
     width:120px;
     height:100%;
+    object-fit: cover;
 }
 .textehotel{
     display: flex;
@@ -443,10 +445,12 @@ img.photospopulaires{
 img.big_activities_pictures{
     width: 100%; 
     height: 350px;
+    object-fit: cover;
 }
 img.small_activities_pictures{
     width: 100%; 
     height: 135px;
+    object-fit: cover;
 }
 img.Fort_de_Pomegue{
     height: 155px;

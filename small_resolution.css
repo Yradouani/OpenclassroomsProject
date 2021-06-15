@@ -142,30 +142,15 @@ input[type="text"]{
     margin-left: 15px;
     font-size: 4.5vw;
 }
-.economic_filter1
-{
-    margin: 0 0;
+#filters_container{
+ display: flex;
+ flex-wrap: wrap;
 }
-.family_filter2{
-    width: 125px;
+.filters{
+    margin-bottom: 10px;
 }
 .title_filter{
     font-size: 16px;
-}
-#filters1and2{
-    margin-left: 13px;
-}
-#filters3and4{
-    flex-direction: column;
-    margin-left: 13px;
-}
-.romantic_filter3{
-    margin: 20px 0 0 0;
-    width: 160px;
-}
-.pets_filter4{
-    margin: 20px 0;
-    width: 210px;
 }
 .icons{
     font-size: 15px;

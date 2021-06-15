@@ -1,19 +1,14 @@
 #filter_block{
-    flex-direction: column;
-    margin: 15px 0;
+    margin: 25px 0;
+    flex-wrap: wrap;
 }
-.economic_filter1{
-    margin: 20px 10px 0 0;
+.filters{
+    margin-bottom: 10px;
 }
-.family_filter2{
-    margin-top: 20px;
-}
-.romantic_filter3{
-    margin: 20px 10px 0 0;
-}
-.pets_filter4{
-    margin-top: 20px;
-}
+#filters_container{
+    display: flex;
+    flex-wrap: wrap;
+   }
 #housing_section{
     width: 96%;
     margin: 0 auto;
