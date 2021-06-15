@@ -164,14 +164,13 @@ input[type="text"]
     display: flex;
     margin-left: 15px;
     cursor: pointer;
-}
-.economic_filter1{
-    margin-left: 25px;
-    margin-right: 10px;
+    transform: scale(1);
+    transition : transform 1s;
 }
 .filters:hover{
     color:#0065FC;
     border: 2px #eaf2ff solid;
+    transform: scale(1.1);
 }
 .title_filter{
     font-weight: bold;
@@ -180,18 +179,6 @@ input[type="text"]
     align-items: center;
     margin : 0 12px;
     cursor: pointer;
-}
-.family_filter2{
-    margin-right: 10px;
-}
-#filters1and2{
-    display: flex;
-}
-#filters3and4{
-    display: flex;
-}
-.romantic_filter3{
-    margin-right: 10px;
 }
 .icons{
     color:#0065FC;
@@ -312,8 +299,6 @@ img.photoshébergement{
     color :#DEEBFF;
     padding-left: 2px;
 }
-
-/* texte afficher plus */
 .housing_end_paragraph{
     font-weight: bold;
     margin: auto 0 auto 30px;
@@ -335,6 +320,12 @@ img.photoshébergement{
 #popular_icone{
     margin-top: 15px;
     font-size: 18px;
+    transform: scale(1);
+    transition : transform 1s;
+}
+#popular_icone:hover{
+    color: #0065FC;
+    transform: scale(1.2);
 }
 #most_popular{
     width: 85%;

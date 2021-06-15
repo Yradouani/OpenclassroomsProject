@@ -159,7 +159,7 @@ input[type="text"]{
 }
 /* Div information */
 #info_block{
-    margin: 0 10px;
+    margin: 0 10px 15px 10px;
 }
 /* icône information */
 #info_icon{
@@ -199,7 +199,7 @@ section{
     height: auto;
 }
 #popular_header{
-    margin: 7px 25px;
+    margin: 7px 35px;
 }
 #popular_title{
     margin: 15px 17px 10px 0;
@@ -207,6 +207,9 @@ section{
 #popular_icone{
     margin: 17px 0 10px 20px;
     font-size: 20px;
+}
+#popular_icone:hover{
+    color: #0065FC;
 }
 #most_popular{
     margin: 0 auto 20px auto;
@@ -277,7 +280,8 @@ img.photoshébergement{
 }
 /* texte afficher plus */
 .housing_end_paragraph{
-    font-size: 20px;
+    font-size: 18px;
+    margin: 20px 10px 30px 30px;
 }
 
 #activities_section{
