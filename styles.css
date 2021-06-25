@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -44,7 +43,6 @@ img#logo{
 #logo_container{
     width: 68%;
 }
-/* Menu de navigation */
 nav{
     justify-content: space-between;
     margin: 20px auto;
@@ -55,12 +53,22 @@ nav{
     margin-top: -18px;
     display: block;
     font-size: 13px;
+    transition: color 500ms;
+    cursor: pointer;
+}
+.navigation:hover{
+    border-top: 1.5px solid #0065FC;
+    padding: 35px 15px 0 15px;
+    display: block;
+    color: #0065FC;
 }
 .inscription_navigation{
     font-weight: bold;
     padding: 30px 15px 0 15px;
     margin-top: -13px;
     font-size: 13px;
+    transition: color 200ms;
+    cursor: pointer;
 }
 .inscription_navigation:hover{
     color: #0065FC;
@@ -70,12 +78,6 @@ nav{
     color: inherit;
 }
 .ancre:active{
-    color: #0065FC;
-}
-.navigation:hover{
-    border-top: 1.5px solid #0065FC;
-    padding: 35px 15px 0 15px;
-    display: block;
     color: #0065FC;
 }
 .navigation:active{
@@ -90,7 +92,6 @@ nav{
     border: 1.3px #F2F2F2 solid;
     width: 350px;
 }
-/*icône de recherche*/
 #contener_search_icon{
     background-color: #F2F2F2;
     width: 50px;
@@ -100,7 +101,6 @@ nav{
     align-items: center;
     justify-content: center;   
 }
-/*Champs de recherche*/
 #search_field{
     display: flex;
     height: 98%;
@@ -127,7 +127,6 @@ input[type="text"]
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
-/* Bouton de recherche*/
 #button_desktop_version{  
     background-color: #0065FC;
     height: 45px;
@@ -146,11 +145,12 @@ input[type="text"]
 #search_icone_mobile_version{
     display: none;
 }
-
-/* Div contenant les filtres */
 #filter_block{
     display : flex;
     margin: 30px 0 15px 0;
+}
+#filters_container{
+    display: flex;
 }
 .textfilters{
     font-weight: bold;
@@ -164,8 +164,7 @@ input[type="text"]
     display: flex;
     margin-left: 15px;
     cursor: pointer;
-    transform: scale(1);
-    transition : transform 1s;
+    transition : all 200ms;
 }
 .filters:hover{
     color:#0065FC;
@@ -192,13 +191,10 @@ input[type="text"]
     font-size: 15px;
     margin-left: -3px;
 }
-
-/* Div information */
 #info_block{
     display: flex;
     padding-top: 5px;
 }
-/* icône information */
 #info_icon{
     color:#0065FC;
     width: 25px;
@@ -210,7 +206,6 @@ input[type="text"]
     justify-content: center;   
     font-size: 11px; 
 }
-/* paragraphe info */
 #info_paragraph{
     margin: 6px 0 10px 10px;
 }
@@ -229,8 +224,6 @@ input[type="text"]
     position: relative;
     height: 560px;
 }
-
-/* div contenant les hébergements à Marseille + texte */
 #housing_block{
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -241,7 +234,6 @@ input[type="text"]
     height: 530px;
     flex-direction: column;
 }
-/* h2 Hébergement à Marseille */
 #housing_title{
     margin-left: 20px;
     padding-top: 5px;
@@ -251,7 +243,6 @@ input[type="text"]
     justify-content: space-around;
     margin: 0 10px;
 }
-/* Cartes d'hébergements à Marseille */
 .Hosting_map{
     background-color: white;
     border: 3px white solid;
@@ -276,7 +267,6 @@ img.photoshébergement{
     height:105px;
     object-fit: cover;
 }
-/* Noms des hôtels */
 .name{
     font-weight: bold;
     margin: 4px 2px 0 10px;
@@ -285,7 +275,6 @@ img.photoshébergement{
     font-size: 12px;
     margin: 4px 0 4px 10px;
 }
-/* div contenant les étoiles des hébergements à Marseille */
 .housing_stars{
     display: flex;
     margin-left: 10px;
@@ -302,16 +291,15 @@ img.photoshébergement{
 .housing_end_paragraph{
     font-weight: bold;
     margin: auto 0 auto 30px;
+    cursor: pointer;
 }
 
-/* div contenant les hébergements les plus populaires + texte */
 #popular_block{
     background-color: #F2F2F2;
     border-radius: 15px;
     height: 530px;
     width: 100%;
 }
-/*contener du h2 + icône populaires*/
 #popular_header{
     display: flex;
     justify-content: space-between;
@@ -320,8 +308,7 @@ img.photoshébergement{
 #popular_icone{
     margin-top: 15px;
     font-size: 18px;
-    transform: scale(1);
-    transition : transform 1s;
+    transition : all 200ms;
 }
 #popular_icone:hover{
     color: #0065FC;
@@ -335,7 +322,6 @@ img.photoshébergement{
     justify-content: space-around;
     margin: 0 auto;
 }
-/* Cartes d'hébergements des logements les plus populaires */
 .popular_hotel{
     background-color: white;
     border-radius: 15px;
@@ -368,7 +354,6 @@ img.photospopulaires{
     justify-content: space-between;
     padding: 7px 10px 3px 7px;
 }
-/* div contenant les étoiles des logements les plus populaires */
 .stars2{
     display: flex;
     padding-left: 10px;
@@ -376,12 +361,10 @@ img.photospopulaires{
     margin-bottom: 3px;
 }
 
-/* div Activités */
 #activities_block{
     width: 96%;
     margin: 35px auto;
 }
-/* div contenant toutes les photos + texte des activités à Marseille */
 .activities_block_cards{
     display: flex;
     margin: 0 auto;
@@ -396,7 +379,6 @@ img.photospopulaires{
 .activities_block2{
     margin-right: 0;
 }
-/* div contenant les photos grand format + le texte des activités à Marseille */
 .large_cards{
     border: 1px #F2F2F2 solid;
     border-radius: 15px;
@@ -408,7 +390,6 @@ img.photospopulaires{
 .large_cards:hover{
     border: 1px #d3d1d1 solid;
 }
-/* bloc des photos petit format (2 par 2) + texte des activités à Marseille */
 .small_cards_block{
     margin-left: 30px;
     width: 48%;
@@ -416,7 +397,6 @@ img.photospopulaires{
     flex-direction: column;
     justify-content: space-between;
 }
-/* div contenant les photos petit format + le texte des activités à Marseille */
 .small_cards{
     border: 1px #F2F2F2 solid;
     border-radius: 15px;
@@ -449,7 +429,6 @@ img.Fort_de_Pomegue{
 img.Iles_du_Frioul{
     height: 120px;
 }
-/* noms des activités des grandes photos */
 .activities_name1{
     font-weight: bold;
     margin-left: 15px;
@@ -457,7 +436,6 @@ img.Iles_du_Frioul{
     align-items: center;
     margin-right: 15px;
 }
-/* noms des activités des petites photos */
 .activities_name2{
     font-weight: bold;
     margin-left: 15px;
@@ -481,6 +459,10 @@ footer{
 }
 .footer_text{
     cursor: pointer;
+    transition: color 200ms;
+}
+.footer_text:hover{
+    color: #0065FC;
 }
 .text_2{
     margin-top: -5px;
