@@ -1,18 +1,14 @@
-p
-{
+p{
     font-size: 17px;
 }
-h1
-{
+h1{
     font-size: 24px;
     margin: 10px 20px;
 }
-h2
-{
+h2{
     font-size: 22px;
 }
-#main_wrapper
-{
+#main_wrapper{
     min-width: 200px;
     max-width: 697px;
     font-size: 15px;
@@ -20,22 +16,11 @@ h2
     display: flex;
     flex-direction: column;
 }
-header
-{
+header{
     width: 100%;
     order: 1;
 }
-.header_logo_navigation
-{
-    width: 100%;
-    margin-bottom: 1%;
-    flex-direction: column;
-  
-}
-
-/* Menu de navigation */
-nav
-{ 
+nav{ 
     width: 100%;
     flex-wrap: wrap;
 }
@@ -170,7 +155,6 @@ input[type="text"]{
     font-size: 10px; 
     margin-top: 5px;
 }
-/* paragraphe info */
 #info_paragraph{
     margin: 6px 0 10px 10px;
     font-size: 17px; 
@@ -208,24 +192,23 @@ section{
     margin: 17px 0 10px 20px;
     font-size: 20px;
 }
-
 #most_popular{
     margin: 0 auto 20px auto;
     width: 98%;
 }
-/* Cartes d'hébergements des logements les plus populaires */
 .popular_hotel{
     height: 150px;
     border: 4px white solid; 
     width: 87%;
     margin: 5px auto;
 }
-
-/* div contenant les étoiles des logements les plus populaires */
 .stars2
 {
     font-size: 13px;
     padding-bottom: 3px;
+}
+img.photospopulaires{
+    width: 140px;
 }
 /* div contenant les hébergements à Marseille + texte */
 #housing_block
